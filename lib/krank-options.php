@@ -254,7 +254,7 @@ if ( is_dir( $sample_patterns_path ) ) :
   endif;
 endif;
 
-//KRANK OPTIONS BELOW//////////////////////////////////////////////////////////////////////////////////////////////////KRANK OPTIONS BELOW// 
+//KRANK OPTIONS BELOW///////////////////////////////////////////////////////KRANK OPTIONS BELOW// 
 
 	$sections[] = array(
 		'title' => __('Company Info', 'redux-framework-demo'),
@@ -324,6 +324,16 @@ endif;
 				'title' => __('Google Maps Location', 'redux-framework-demo'),
 				'subtitle' => __('Longitude and latitude coordinates.', 'redux-framework-demo'),
 				'description' => __('Find the desired location on google maps. right click on pin, and click on Whats Here? Then copy the location that apears in the search bar. should look something like ( 54.321029, -2.742947 )', 'redux-framework-demo')
+				),
+			array(
+				'id'=>'reg',
+				'type' => 'text',
+				'title' => __('Company Reg Number (CRN)', 'redux-framework-demo'),
+				),
+			array(
+				'id'=>'vat',
+				'type' => 'text',
+				'title' => __('VAT Reg Number', 'redux-framework-demo'),
 				),
 				//////
 
@@ -514,7 +524,15 @@ $sections[] = array(
     'icon' => 'pencil',
     // 'submenu' => false, // Setting submenu to false on a given section will hide it from the WordPress sidebar menu!
 	'fields' => array(
-		
+		array(
+			'id'=>'logo',
+			'type' => 'media', 
+			'url'=> true,
+			'title' => __('Company Logo', 'redux-framework-demo'),
+			'compiler' => 'true',
+			'desc'=> __('', 'redux-framework-demo'),
+			'subtitle' => __('', 'redux-framework-demo'),
+			),
 		array(
 			'id'=>'main_class',
 			'type' => 'select',

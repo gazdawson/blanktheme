@@ -6,11 +6,11 @@
       <?php dynamic_sidebar('sidebar-footer'); ?>
 	  
 		<address itemscope itemtype="http://schema.org/LocalBusiness" class="footer-address">
-			<span itemprop="name"><?php echo $krank['name']; ?>,</span>
+			<span itemprop="name"><?php echo $krank['name']; ?></span>
 			<span itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
-			<span itemprop="streetAddress"><?php echo $krank['street']; ?>,</span>
-			<span itemprop="addressLocality"><?php echo $krank['town']; ?>,</span>
-			<span itemprop="addressRegion"><?php echo $krank['county']; ?>,</span>
+			<span itemprop="streetAddress"><?php echo $krank['street']; ?></span>
+			<span itemprop="addressLocality"><?php echo $krank['town']; ?></span>
+			<span itemprop="addressRegion"><?php echo $krank['county']; ?></span>
 			<span itemprop="postalCode"><?php echo $krank['postcode']; ?></span>
 		
 			<ul class="contact">
