@@ -563,6 +563,27 @@ $sections[] = array(
 		
 		),
 	);
+
+//Krank Carousels
+
+$sections[] = array(
+	'title' => __('Carousels', 'redux-framework-demo'),
+	'header' => __('Carousel slides and options', 'redux-framework-demo'),
+	'desc' => __('', 'redux-framework-demo'),
+	'icon_class' => 'icon-large',
+    'icon' => 'picture',
+    // 'submenu' => false, // Setting submenu to false on a given section will hide it from the WordPress sidebar menu!
+	'fields' => array(
+		array(
+			'id'=>'home_slides',
+			'type' => 'slides',
+			'title' => __('Homepage Carousel Slides', 'redux-framework-demo'),
+			'subtitle'=> __('Unlimited slides with drag and drop sortings.', 'redux-framework-demo'),
+			'desc' => __('', 'redux-framework-demo')
+			),
+	
+		),
+	);
 	
 $sections[] = array(
 	'type' => 'divide',
