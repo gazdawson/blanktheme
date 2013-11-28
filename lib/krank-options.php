@@ -325,6 +325,16 @@ endif;
 				'subtitle' => __('Longitude and latitude coordinates.', 'redux-framework-demo'),
 				'description' => __('Find the desired location on google maps. right click on pin, and click on Whats Here? Then copy the location that apears in the search bar. should look something like ( 54.321029, -2.742947 )', 'redux-framework-demo')
 				),
+			array(
+				'id'=>'reg',
+				'type' => 'text',
+				'title' => __('Company Reg Number (CRN)', 'redux-framework-demo'),
+				),
+			array(
+				'id'=>'vat',
+				'type' => 'text',
+				'title' => __('VAT Reg Number', 'redux-framework-demo'),
+				),
 				//////
 
 			array(
