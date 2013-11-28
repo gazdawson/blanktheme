@@ -1,6 +1,7 @@
 <header class="banner container" role="banner">
   <div class="row">
     <div class="col-lg-12">
+	  <a class="logo" href="<?php echo home_url(); ?>/"><img src="<?php echo $krank['logo']['url']; ?>" alt="<?php bloginfo('name'); ?>" class="logo" /></a>
       <a class="brand" href="<?php echo home_url(); ?>/"><?php bloginfo('name'); ?></a>
       <nav class="nav-main" role="navigation">
         <?php
