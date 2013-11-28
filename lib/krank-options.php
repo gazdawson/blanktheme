@@ -254,7 +254,7 @@ if ( is_dir( $sample_patterns_path ) ) :
   endif;
 endif;
 
-//KRANK OPTIONS BELOW//////////////////////////////////////////////////////////////////////////////////////////////////KRANK OPTIONS BELOW// 
+//KRANK OPTIONS BELOW///////////////////////////////////////////////////////KRANK OPTIONS BELOW// 
 
 	$sections[] = array(
 		'title' => __('Company Info', 'redux-framework-demo'),
@@ -524,7 +524,15 @@ $sections[] = array(
     'icon' => 'pencil',
     // 'submenu' => false, // Setting submenu to false on a given section will hide it from the WordPress sidebar menu!
 	'fields' => array(
-		
+		array(
+			'id'=>'logo',
+			'type' => 'media', 
+			'url'=> true,
+			'title' => __('Company Logo', 'redux-framework-demo'),
+			'compiler' => 'true',
+			'desc'=> __('', 'redux-framework-demo'),
+			'subtitle' => __('', 'redux-framework-demo'),
+			),
 		array(
 			'id'=>'main_class',
 			'type' => 'select',

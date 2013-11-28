@@ -1,3 +1,5 @@
+<?php global $krank; // Global variable for custom options ?>
+
 <header class="banner navbar navbar-default navbar-static-top" role="banner">
   <div class="container">
     <div class="navbar-header">
@@ -7,6 +9,7 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
+	  <a class="logo" href="<?php echo home_url(); ?>/"><img src="<?php echo $krank['logo']['url']; ?>" alt="<?php bloginfo('name'); ?>" class="logo" /></a>
       <a class="navbar-brand" href="<?php echo home_url(); ?>/"><?php bloginfo('name'); ?></a>
     </div>
 
