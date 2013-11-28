@@ -3,6 +3,7 @@
     <div class="col-lg-12">
 	  <a class="logo" href="<?php echo home_url(); ?>/"><img src="<?php echo $krank['logo']['url']; ?>" alt="<?php bloginfo('name'); ?>" class="logo" /></a>
       <a class="brand" href="<?php echo home_url(); ?>/"><?php bloginfo('name'); ?></a>
+	  <h1 class="tagline"><?php bloginfo('description'); ?></h1>
       <nav class="nav-main" role="navigation">
         <?php
           if (has_nav_menu('primary_navigation')) :
