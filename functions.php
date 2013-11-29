@@ -17,6 +17,7 @@ require_once locate_template('/lib/relative-urls.php');   // Root relative URLs
 require_once locate_template('/lib/widgets.php');         // Sidebars and widgets
 require_once locate_template('/lib/scripts.php');         // Scripts and stylesheets
 require_once locate_template('/lib/custom.php');          // Custom functions
+require_once locate_template('/lib/shortcodes.php');      // Custom shortcodes
 
 // Custom Meta Boxes see https://github.com/jaredatch/Custom-Metaboxes-and-Fields-for-WordPress
 if (is_admin()) { require_once locate_template('/metaboxes/meta.php'); }

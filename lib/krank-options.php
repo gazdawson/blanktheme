@@ -282,7 +282,7 @@ endif;
 				'title' => __('Town / City', 'redux-framework-demo'), 
 				),
 			array(
-				'id'=>'county',
+				'id'=>'region',
 				'type' => 'text',
 				'title' => __('Region / County', 'redux-framework-demo'), 
 				),
