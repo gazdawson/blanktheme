@@ -35,3 +35,23 @@ function krank_address( $atts ) {
 	return $address;
 }
 add_shortcode('address', 'krank_address');
+
+//[open-hours title="title"]
+function krank_opening( $atts ) {
+	global $krank;
+
+	extract(shortcode_atts(array(
+		'title' => '',
+	), $atts));
+   
+	foreach($krank['open-hours'] as $open):
+		$opening .=
+		   '<li>'.$open.'</li>';
+	endforeach;
+	
+	return
+		'<ul class="opening-hours">'.
+			$opening
+		.'</ul>';
+}
+add_shortcode('open-hours', 'krank_opening');

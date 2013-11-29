@@ -5,6 +5,7 @@
     <div class="col-lg-12">
       <?php dynamic_sidebar('sidebar-footer'); ?>
 	  <?php echo krank_address(); ?>
+	  <?php echo krank_opening(); ?>
 
       <p class="copywrite">&copy; <?php echo date('Y').' '.$krank['name']; ?> | <a href="http://www.krankcreative.co.uk">Website Design by Krank Creative Kendal, Cumbria</a></p>
     </div>

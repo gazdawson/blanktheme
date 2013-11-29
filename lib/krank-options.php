@@ -335,6 +335,13 @@ endif;
 				'type' => 'text',
 				'title' => __('VAT Reg Number', 'redux-framework-demo'),
 				),
+			array(
+				'id'=>'open-hours',
+				'type' => 'multi_text',
+				'title' => __('Opening Hours', 'redux-framework-demo'),
+				'subtitle' => __('', 'redux-framework-demo'),
+				'desc' => __('Click "Add More" button to add days and times', 'redux-framework-demo')
+				),
 				//////
 
 			array(
