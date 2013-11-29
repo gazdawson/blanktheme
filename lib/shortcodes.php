@@ -13,7 +13,7 @@ function krank_address( $atts ) {
    ), $atts));
    
    $address = 
-   	'<address class="vcard" itemtype="http://schema.org/LocalBusiness" itemscope="">
+   	'<address class="address vcard" itemtype="http://schema.org/LocalBusiness" itemscope="">
    		<a class="org" href="'.site_url().'"><span itemprop="name">'.$krank['name'].'</span></a>
    		<span itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
 	   		<span class="street-address" itemprop="streetAddress">'.$krank['street'].'</span>
@@ -21,7 +21,7 @@ function krank_address( $atts ) {
 	   		<span class="region" itemprop="addressRegion">'.$krank['region'].'</span>
 	   		<span class="postal-code" itemprop="postalCode">'.$krank['postcode'].'</span>
 		</span>
-   	</address><!--/address-->';
+   	</address><!--/.address-->';
 	
 	return $address;
 }
@@ -40,12 +40,12 @@ function krank_contact( $atts ) {
 	endif;
 
 	$contact =
-	'<ul class="contact" itemtype="http://schema.org/LocalBusiness" itemscope="">
+	'<ul class="contact-info" itemtype="http://schema.org/LocalBusiness" itemscope="">
 		<li><abbr title="Landline">T: </abbr><a class="tel" itemprop="telephone" href="tel:'.$krank['tel'].'" title="Call '. $krank['name'].' Today">'.$krank['tel'].'</a></li>'.
 		'<li>'.$mob.'</li>'.
 		'<li><abbr title="Website">W: </abbr><a class="url" itemprop="url" href="'.site_url().'">'.site_url().'</a></li>
 		<li><abbr title="Email">E: </abbr><a class="email" href="'.$krank['email'].'" title="Get In Contact With '.$krank['name'].' Today"><meta itemprop="email" content="'.$krank['email'].'">'.$krank['email'].'</a></li>
-	</ul>';
+	</ul><!--/.contact-info-->';
 
 	return $contact;
 }
@@ -67,6 +67,6 @@ function krank_opening( $atts ) {
 	return
 		'<ul class="opening-hours">'.
 			$opening
-		.'</ul>';
+		.'</ul><!--/.opening-hours-->';
 }
 add_shortcode('open-hours', 'krank_opening');
