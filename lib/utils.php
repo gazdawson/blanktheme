@@ -53,7 +53,8 @@ function krank_carousel($slide_type, $id) {
 	        </a>
 	        <a class="right carousel-control" href="#'.$id.'" data-slide="next">
 				<span class="glyphicon glyphicon-chevron-right"></span>
-	        </a>';
+	        </a>
+		 </div><!--/#home-carousel-->';
 	
 	echo $output;
 }
