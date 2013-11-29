@@ -581,14 +581,31 @@ $sections[] = array(
     'icon' => 'picture',
     // 'submenu' => false, // Setting submenu to false on a given section will hide it from the WordPress sidebar menu!
 	'fields' => array(
+
 		array(
 			'id'=>'home_slides',
 			'type' => 'slides',
-			'title' => __('Homepage Carousel Slides', 'redux-framework-demo'),
+			'title' => __('Homepage carousel slides', 'redux-framework-demo'),
 			'subtitle'=> __('Unlimited slides with drag and drop sortings.', 'redux-framework-demo'),
 			'desc' => __('', 'redux-framework-demo')
 			),
-	
+		array(
+			'id'=>'home_slides_switch',
+			'type' => 'switch', 
+			'title' => __('Homepage carousel On / Off switch', 'redux-framework-demo'),
+			'subtitle'=> __('', 'redux-framework-demo'),
+			"default" 		=> 1,
+			),
+		array(
+			'id'=>'carousel_speed',
+			'type' => 'spinner', 
+			'title' => __('Select the carousel ratation speed in seconds', 'redux-framework-demo'),
+			'desc'=> __('This will be set for all carousels', 'redux-framework-demo'),
+			"default" 	=> "3",
+			"min" 		=> "1",
+			"step"		=> "1",
+			"max" 		=> "10",
+			),
 		),
 	);
 	
