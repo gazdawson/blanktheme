@@ -6,7 +6,7 @@
       <?php dynamic_sidebar('sidebar-footer'); ?>
 	  <?php echo krank_address(); ?>
 
-      <p>&copy; <?php echo date('Y').' '.$krank['name']; ?> | <a href="http://www.krankcreative.co.uk">Website Design by Krank Creative Kendal, Cumbria</a></p>
+      <p class="copywrite">&copy; <?php echo date('Y').' '.$krank['name']; ?> | <a href="http://www.krankcreative.co.uk">Website Design by Krank Creative Kendal, Cumbria</a></p>
     </div>
   </div>
 </footer>
