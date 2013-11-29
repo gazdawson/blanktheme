@@ -319,6 +319,13 @@ endif;
 				'default' => 'test@test.com'
 				),
 			array(
+				'id'=>'contact_7',
+				'type' => 'text',
+				'title' => __('Contact Form 7 ID', 'redux-framework-demo'),
+				'subtitle' => __('Inter the Contact Form ID number you wish to display in the contact popup.', 'redux-framework-demo'),
+				'desc' => __('it will look something like ID="19"', 'redux-framework-demo')
+				),
+			array(
 				'id'=>'location',
 				'type' => 'text',
 				'title' => __('Google Maps Location', 'redux-framework-demo'),

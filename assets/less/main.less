@@ -9,6 +9,12 @@
    ========================================================================== */
 
 body { }
+a, button {
+	-webkit-transition: color .3s ease-in-out, background-color .3s ease-in-out, background .3s ease-in-out;
+	-moz-transition: color .3s ease-in-out, background-color .3s ease-in-out, background .3s ease-in-out;
+	-ms-transition: color .3s ease-in-out, background-color .3s ease-in-out, background .3s ease-in-out;
+	transition: color .3s ease-in-out, background-color .3s ease-in-out, background .3s ease-in-out;
+}
 
 
 
@@ -18,7 +24,8 @@ body { }
 
 .banner { }
 .tagline {.h6}
-
+.contact-modal { }
+.modal { }
 
 
 /* ==========================================================================
@@ -66,8 +73,16 @@ body { }
 
 .content-info { }
 .address { }
-.contact-info { }
-.opening-hours { }
+.contact-info { 
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+.opening-hours { 
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
 .copywrite { }
 
 
@@ -82,7 +97,6 @@ body { }
 	}
 	.carousel-control{}
 }
-
 
 
 /* ==========================================================================

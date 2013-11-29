@@ -5,6 +5,9 @@
       <a class="brand" href="<?php echo home_url(); ?>/"><?php bloginfo('name'); ?></a>
 	  <h1 class="tagline"><?php bloginfo('description'); ?></h1>
       <nav class="nav-main" role="navigation">
+	  	<button class="btn btn-primary contact-modal" data-toggle="modal" data-target="#contact-modal">
+	  	  Contact Us
+	  	</button>
         <?php
           if (has_nav_menu('primary_navigation')) :
             wp_nav_menu(array('theme_location' => 'primary_navigation', 'menu_class' => 'nav nav-pills'));
