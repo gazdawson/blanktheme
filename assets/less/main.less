@@ -27,10 +27,20 @@ a, button {
 //  Header
 // ==========================================================================
 
-.banner { }
-.logo { }
-.tagline {.h6}
-.contact-modal { }
+.banner { 
+	.logo {
+		display: inline-block; 
+	}
+	.org {
+		.h6;
+		display: inline-block;
+	}
+	.tagline {
+		.h6;
+		display: inline-block;
+	}
+	.contact-modal { }
+}
 .modal { }
 
 // ==========================================================================
@@ -68,19 +78,67 @@ a, button {
 //  Footer
 // ==========================================================================
 
-.content-info { }
+.content-info {
+	background-color: @gray-lighter;
+	padding: @grid-gutter-width 0;
+	margin-top: @grid-gutter-width;
+	
+	.address { }
+	.contact-info { }
+	.opening-hours { }
+}
+
+.copywrite {
+	font-size: 12px;
+	color: @gray-lighter;
+	text-align: center;
+	padding: @grid-gutter-width;
+	a {
+		color: @gray-lighter;
+		&:hover {
+			color: @brand-primary;
+		}
+	}
+}
+
+// ==========================================================================
+//  Home
+// ==========================================================================
+
+
+
+// ==========================================================================
+//  Contact
+// ==========================================================================
+
+.contact {
+	.contact-info {
+		.contact-title { }
+		.business-info {
+			.make-sm-column(6);
+			
+			.google-map {
+				height: 300px;
+			}
+		}
+		.contact-form {
+			.make-sm-column(6);
+		}
+	}
+}
+
+// ==========================================================================
+//  Business info
+// ==========================================================================
+
+.address, .contact-info { 
+	list-style: none;
+	margin: 0 0 floor(@grid-gutter-width / 2) 0;
+	padding: 0;
+}
 .address { }
-.contact-info { 
-	list-style: none;
-	margin: 0;
-	padding: 0;
-}
-.opening-hours { 
-	list-style: none;
-	margin: 0;
-	padding: 0;
-}
-.copywrite { }
+.contact-info { }
+.opening-hours { }
 
 // ==========================================================================
 //  Carousels

@@ -565,16 +565,6 @@ $sections[] = array(
 			'options' => array('col-sm-1' => '1 Columns','col-sm-2' => '2 Columns','col-sm-3' => '3 Columns','col-sm-4' => '4 Columns','col-sm-5' => '5 Columns','col-sm-6' => '6 Columns'),//Must provide key => value pairs for select options
 			'default' => 'col-sm-4'
 			),
-		array(
-			'id'=>'page_sidebar',
-			'type' => 'select',
-			'data' => 'pages',
-			'multi' => true,
-			'title' => __('Select which pages you do not wish the sidebar to display on', 'redux-framework-demo'), 
-			'subtitle' => __('', 'redux-framework-demo'),
-			'desc' => __('', 'redux-framework-demo'),
-			),
-		
 		),
 	);
 

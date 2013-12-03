@@ -13,10 +13,10 @@
       ?><!--/#menu-footer-navigation-->
     </div>
   </div>
-  <div class="row copywrite">
-	  &copy; <?php echo date('Y').' '.$krank['name']; ?> | <a href="http://www.krankcreative.co.uk">Website Design by Krank Creative Kendal, Cumbria</a>
-  </div>
 </footer>
+<div class="copywrite container">
+  &copy; <?php echo date('Y').' '.$krank['name']; ?> | <a href="http://www.krankcreative.co.uk">Website Design by Krank Creative Kendal, Cumbria</a>
+</div>
 
 <div class="modal fade" id="contact-modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
   <div class="modal-dialog">
