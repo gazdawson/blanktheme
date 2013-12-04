@@ -35,6 +35,8 @@ function krank_display_sidebar() {
     array(
       'is_404',
 	  'is_page',
+	  array('is_post_type_archive', array('custom')), // Remove sidebar from custom archive page
+	  array('is_singular', array('custom')) // Remove sidebar from custom single page
     ),
     /**
      * Page template checks (via is_page_template())

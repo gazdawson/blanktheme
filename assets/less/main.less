@@ -41,13 +41,23 @@ a, button {
 	}
 	.contact-modal { }
 }
-.modal { }
+.modal { 
+	.modal-header {
+		text-align: center;
+	}
+	.modal-body { }
+	.modal-footer { }
+}
 
 // ==========================================================================
 //  Content
 // ==========================================================================
 
 .content { }
+
+.page-header { 
+	h1 { }
+}
 
 // ==========================================================================
 //  Primary Content
@@ -73,6 +83,23 @@ a, button {
 .hentry .byline { }
 .hentry .entry-content { }
 .hentry footer { }
+
+// ==========================================================================
+//  Custom Posts ( Change 'custom' to required post type )
+// ==========================================================================
+
+.post-type-archive-custom {
+	.custom {
+		.category-image { }
+		.entry-title { }
+		.entry-excerpt { }
+	}
+}
+.single-custom {
+	.products {
+		
+	}
+}
 
 // ==========================================================================
 //  Footer
@@ -166,8 +193,11 @@ figure.alignnone { margin-left: 0; margin-right: 0; }
 //  Media Queries
 // ==========================================================================
 
-@media (min-width: @screen-sm-min) { }
 
-@media (min-width: @screen-md-min) { }
+@media only screen and (max-width: @screen-xs-min) { }
 
-@media (min-width: @screen-lg-min) { }
+@media only screen and (max-width: @screen-sm-min) { }
+
+@media only screen and (max-width: @screen-md-min) { }
+
+@media only screen and (max-width: @screen-lg-min) { }
