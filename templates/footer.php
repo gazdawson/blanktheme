@@ -36,6 +36,13 @@
       </div>
     </div><!-- /.modal-content -->
   </div><!-- /.modal-dialog -->
-</div><!-- /.modal -->
+</div><!-- /#contact-modal .modal -->
+
+<div class="modal fade" id="photo-modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+	<div class="modal-dialog">
+        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+		<img src="" />
+	</div><!-- /.modal-dialog -->
+</div><!-- /#photo-modal .modal -->
 
 <?php wp_footer(); ?>

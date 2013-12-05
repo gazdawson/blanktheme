@@ -12,6 +12,24 @@ $(document).ready(function(){
 	$('.wpcf7-not-valid-tip-no-ajax').addClass('alert alert-warning');
 	$('.wpcf7-valida tion-errors').addClass('alert alert-danger');
 	$('.wpcf7-mail-sent-ok').addClass('alert alert-success');
+	
+	// Photo Modal
+	$(function() {     
+		$('a.thumbnail').click(function(e)
+		
+	    {
+		    e.preventDefault();
+	        var imgPath = $(this).data('imgpath');
+	        $('#photo-modal img').attr('src', imgPath);
+	        $("#photo-modal").modal('show');
+	    });
+
+	    $('img').on('click', function()
+		
+	    {
+	        $("#photo-modal").modal('hide')
+	    });
+	});
 
 });
 
@@ -107,22 +125,9 @@ function newGoogleMap ( location, template ) {
 	map.setOptions({
 	    styles: style
 	});
-
-	var image = {
-	    url: template + '/assets/img/location.png',
-	    origin: new google.maps.Point(0, 0),
-	    anchor: new google.maps.Point(12, 59)
-	};
-	var shadow = {
-	    url: template + '/assets/img/shadow.png',
-	    origin: new google.maps.Point(0, 0),
-	    anchor: new google.maps.Point(-2, 36)
-	};
 	var marker = new google.maps.Marker({
 	    position: centerPosition,
 	    map: map,
-	    icon: image,
-	    shadow: shadow
 	});
 }
 
