@@ -65,7 +65,7 @@ function krank_google_analytics() {
   e=o.createElement(i);r=o.getElementsByTagName(i)[0];
   e.src='//www.google-analytics.com/analytics.js';
   r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
-  ga('create','<?php echo $krank['ga_code']; ?>');ga('send','pageview');
+  ga('create','<?php echo "'".$krank['ga_code']."'"; ?>');ga('send','pageview');
 </script>
 
 <?php }
