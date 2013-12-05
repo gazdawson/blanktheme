@@ -20,11 +20,6 @@ define('POST_EXCERPT_LENGTH', 40); // Length in words for excerpt_length filter 
  * See lib/sidebar.php for more details
  */
 function krank_display_sidebar() {
-	global $krank; // Options Variable
-
-	foreach ($krank['page_sidebar'] as $page):
-		$side_pages .= $page.',';
-	endforeach;
 	
   $sidebar_config = new Krank_Sidebar(
     /**
@@ -39,14 +34,16 @@ function krank_display_sidebar() {
      */
     array(
       'is_404',
-	  array('is_page', array($side_pages)),
+	  'is_page',
+	  array('is_post_type_archive', array('custom')), // Remove sidebar from custom archive page
+	  array('is_singular', array('custom')) // Remove sidebar from custom single page
     ),
     /**
      * Page template checks (via is_page_template())
      * Any of these page templates that return true won't show the sidebar
      */
     array(
-      'template-custom.php'
+      'template-custom.php',
     )
   );
 

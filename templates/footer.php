@@ -3,9 +3,9 @@
 <footer class="content-info container" role="contentinfo">
   <div class="row">
     <div class="col-lg-12">
-	  <?php echo krank_address(); ?>
-	  <?php echo krank_contact(); ?>
-	  <?php echo krank_opening(); ?>
+	<?php echo do_shortcode('[address title=""]'); ?>
+	<?php echo do_shortcode('[open-hours title=""]'); ?>
+	<?php echo do_shortcode('[contact title=""]'); ?>
       <?php
         if (has_nav_menu('footer_navigation')) :
           wp_nav_menu(array('theme_location' => 'footer_navigation', 'menu_class' => 'nav'));
@@ -13,10 +13,10 @@
       ?><!--/#menu-footer-navigation-->
     </div>
   </div>
-  <div class="row copywrite">
-	  &copy; <?php echo date('Y').' '.$krank['name']; ?> | <a href="http://www.krankcreative.co.uk">Website Design by Krank Creative Kendal, Cumbria</a>
-  </div>
 </footer>
+<div class="copywrite container">
+  &copy; <?php echo date('Y').' '.$krank['name']; ?> | <a href="http://www.krankcreative.co.uk">Website Design by Krank Creative Kendal, Cumbria</a>
+</div>
 
 <div class="modal fade" id="contact-modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
   <div class="modal-dialog">
@@ -31,11 +31,18 @@
       </div>
       <div class="modal-footer">
 		<p>Alternatively you can use any of our other forms of contact to get in touch.</p>
-		<?php echo krank_contact(); ?>
+		<?php echo do_shortcode('[contact title=""]'); ?>
         <button type="button" class="btn btn-default" data-dismiss="modal" aria-hidden="true">Close</button>
       </div>
     </div><!-- /.modal-content -->
   </div><!-- /.modal-dialog -->
-</div><!-- /.modal -->
+</div><!-- /#contact-modal .modal -->
+
+<div class="modal fade" id="photo-modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+	<div class="modal-dialog">
+        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+		<img src="" />
+	</div><!-- /.modal-dialog -->
+</div><!-- /#photo-modal .modal -->
 
 <?php wp_footer(); ?>

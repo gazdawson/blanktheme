@@ -319,20 +319,6 @@ endif;
 				'default' => 'test@test.com'
 				),
 			array(
-				'id'=>'contact_7',
-				'type' => 'text',
-				'title' => __('Contact Form 7 ID', 'redux-framework-demo'),
-				'subtitle' => __('Inter the Contact Form ID number you wish to display in the contact popup.', 'redux-framework-demo'),
-				'desc' => __('it will look something like ID="19"', 'redux-framework-demo')
-				),
-			array(
-				'id'=>'location',
-				'type' => 'text',
-				'title' => __('Google Maps Location', 'redux-framework-demo'),
-				'subtitle' => __('Longitude and latitude coordinates.', 'redux-framework-demo'),
-				'description' => __('Find the desired location on google maps. right click on pin, and click on Whats Here? Then copy the location that apears in the search bar. should look something like ( 54.321029, -2.742947 )', 'redux-framework-demo')
-				),
-			array(
 				'id'=>'reg',
 				'type' => 'text',
 				'title' => __('Company Reg Number (CRN)', 'redux-framework-demo'),
@@ -565,16 +551,6 @@ $sections[] = array(
 			'options' => array('col-sm-1' => '1 Columns','col-sm-2' => '2 Columns','col-sm-3' => '3 Columns','col-sm-4' => '4 Columns','col-sm-5' => '5 Columns','col-sm-6' => '6 Columns'),//Must provide key => value pairs for select options
 			'default' => 'col-sm-4'
 			),
-		array(
-			'id'=>'page_sidebar',
-			'type' => 'select',
-			'data' => 'pages',
-			'multi' => true,
-			'title' => __('Select which pages you do not wish the sidebar to display on', 'redux-framework-demo'), 
-			'subtitle' => __('', 'redux-framework-demo'),
-			'desc' => __('', 'redux-framework-demo'),
-			),
-		
 		),
 	);
 
@@ -632,6 +608,20 @@ $sections[] = array(
 			'subtitle' => __('Please enter your Google Analytics Tracking ID code, should look something like "UA-XXXXX-Y"', 'redux-framework-demo'),
 			'desc' => __('Get tracking today with Goggle Analytics http://www.google.com/analytics/', 'redux-framework-demo'),
 			'class' => 'small-text'
+			),
+		array(
+			'id'=>'location',
+			'type' => 'text',
+			'title' => __('Google Maps Location', 'redux-framework-demo'),
+			'subtitle' => __('Longitude and latitude coordinates.', 'redux-framework-demo'),
+			'description' => __('Find the desired location on google maps. right click on pin, and click on Whats Here? Then copy the location that apears in the search bar. should look something like ( 54.321029, -2.742947 )', 'redux-framework-demo')
+			),
+		array(
+			'id'=>'contact_7',
+			'type' => 'text',
+			'title' => __('Contact Form 7 ID', 'redux-framework-demo'),
+			'subtitle' => __('Inter the Contact Form ID number you wish to display in the contact popup.', 'redux-framework-demo'),
+			'desc' => __('it will look something like ID="19"', 'redux-framework-demo')
 			),
 	)
 );

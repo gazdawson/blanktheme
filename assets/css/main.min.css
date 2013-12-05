@@ -1,6 +1,3 @@
-/*!
- * Krank
- */
 /*! normalize.css v2.1.3 | MIT License | git.io/normalize */
 article,
 aside,
@@ -5993,9 +5990,6 @@ td.visible-print {
     display: none !important;
   }
 }
-/* ==========================================================================
-   Base
-   ========================================================================== */
 a,
 button {
   -webkit-transition: color 0.3s ease-in-out, background-color 0.3s ease-in-out, background 0.3s ease-in-out;
@@ -6003,58 +5997,131 @@ button {
   -ms-transition: color 0.3s ease-in-out, background-color 0.3s ease-in-out, background 0.3s ease-in-out;
   transition: color 0.3s ease-in-out, background-color 0.3s ease-in-out, background 0.3s ease-in-out;
 }
-/* ==========================================================================
-   Header
-   ========================================================================== */
-.tagline {
+.banner .logo {
+  display: inline-block;
+}
+.banner .org {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: 500;
   line-height: 1.1;
   color: inherit;
   font-size: 12px;
+  display: inline-block;
 }
-.tagline small,
-.tagline .small {
+.banner .org small,
+.banner .org .small {
   font-weight: normal;
   line-height: 1;
   color: #999999;
 }
-/* ==========================================================================
-   Content
-   ========================================================================== */
-/* ==========================================================================
-   Primary Content
-   ========================================================================== */
+.banner .tagline {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 500;
+  line-height: 1.1;
+  color: inherit;
+  font-size: 12px;
+  display: inline-block;
+}
+.banner .tagline small,
+.banner .tagline .small {
+  font-weight: normal;
+  line-height: 1;
+  color: #999999;
+}
+.modal .modal-header {
+  text-align: center;
+}
 /* Gallery Shortcode */
 .gallery-row {
   padding: 15px 0;
 }
-/* ==========================================================================
-   Sidebar
-   ========================================================================== */
-/* ==========================================================================
-   Posts
-   ========================================================================== */
-/* ==========================================================================
-   Footer
-   ========================================================================== */
+.content-info {
+  background-color: #eeeeee;
+  padding: 30px 0;
+  margin-top: 30px;
+}
+.copywrite {
+  font-size: 12px;
+  color: #eeeeee;
+  text-align: center;
+  padding: 30px;
+}
+.copywrite a {
+  color: #eeeeee;
+}
+.copywrite a:hover {
+  color: #f39c12;
+}
+.contact .contact-info .business-info {
+  position: relative;
+  min-height: 1px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+@media (min-width: 768px) {
+  .contact .contact-info .business-info {
+    float: left;
+    width: 50%;
+  }
+}
+.contact .contact-info .business-info .google-map {
+  height: 300px;
+}
+.contact .contact-info .contact-form {
+  position: relative;
+  min-height: 1px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+@media (min-width: 768px) {
+  .contact .contact-info .contact-form {
+    float: left;
+    width: 50%;
+  }
+}
+.address,
 .contact-info {
   list-style: none;
-  margin: 0;
+  margin: 0 0 15px 0;
   padding: 0;
 }
-.opening-hours {
-  list-style: none;
-  margin: 0;
-  padding: 0;
+.gallery-row {
+  padding: 15px 0 0 0;
 }
-/* ==========================================================================
-   Carousels
-   ========================================================================== */
-/* ==========================================================================
-   WordPress Generated Classes
-   See: http://codex.wordpress.org/CSS#WordPress_Generated_Classes
-   ========================================================================== */
+.gallery-row div {
+  text-align: center;
+}
+.gallery-row div .thumbnail {
+  padding: 0;
+  margin-bottom: 0;
+  border-color: #bdc3c7;
+  display: inline-block !important;
+}
+.gallery-row div .caption {
+  padding: 5px;
+  width: 152px;
+  margin: 0 auto 15px auto;
+}
+#photo-modal .modal-dialog {
+  text-align: center;
+  display: table;
+  padding: 0;
+  margin-top: 10%;
+}
+#photo-modal .modal-dialog img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+#photo-modal .modal-dialog .close {
+  background-color: #fff;
+  color: #f39c12;
+  width: 25px;
+  height: 25px;
+  opacity: .8;
+  position: relative;
+  top: 25px;
+}
 .aligncenter {
   display: block;
   margin: 0 auto;
@@ -6069,6 +6136,3 @@ figure.alignnone {
   margin-left: 0;
   margin-right: 0;
 }
-/* ==========================================================================
-   Media Queries
-   ========================================================================== */
