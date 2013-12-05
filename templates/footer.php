@@ -3,9 +3,9 @@
 <footer class="content-info container" role="contentinfo">
   <div class="row">
     <div class="col-lg-12">
-	  <?php echo krank_address(); ?>
-	  <?php echo krank_contact(); ?>
-	  <?php echo krank_opening(); ?>
+	<?php echo do_shortcode('[address title=""]'); ?>
+	<?php echo do_shortcode('[open-hours title=""]'); ?>
+	<?php echo do_shortcode('[contact title=""]'); ?>
       <?php
         if (has_nav_menu('footer_navigation')) :
           wp_nav_menu(array('theme_location' => 'footer_navigation', 'menu_class' => 'nav'));
@@ -31,7 +31,7 @@
       </div>
       <div class="modal-footer">
 		<p>Alternatively you can use any of our other forms of contact to get in touch.</p>
-		<?php echo krank_contact(); ?>
+		<?php echo do_shortcode('[contact title=""]'); ?>
         <button type="button" class="btn btn-default" data-dismiss="modal" aria-hidden="true">Close</button>
       </div>
     </div><!-- /.modal-content -->
