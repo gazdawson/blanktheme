@@ -14,6 +14,7 @@ function krank_address( $atts ) {
    
    $address = 
    	'<address class="address vcard" itemtype="http://schema.org/LocalBusiness" itemscope="">
+   		<div class="title">'.$title.'</div>
    		<a class="org" href="'.site_url().'"><span itemprop="name">'.$krank['name'].'</span></a>
    		<span itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
 	   		<span class="street-address" itemprop="streetAddress">'.$krank['street'].'</span>
@@ -41,6 +42,7 @@ function krank_contact( $atts ) {
 
 	$contact =
 	'<ul class="contact-info" itemtype="http://schema.org/LocalBusiness" itemscope="">
+		<div class="title">'.$title.'</div>
 		<li><abbr title="Landline">T: </abbr><a class="tel" itemprop="telephone" href="tel:'.$krank['tel'].'" title="Call '. $krank['name'].' Today">'.$krank['tel'].'</a></li>'.
 		'<li>'.$mob.'</li>'.
 		'<li><abbr title="Website">W: </abbr><a class="url" itemprop="url" href="'.site_url().'">'.site_url().'</a></li>
@@ -65,7 +67,8 @@ function krank_opening( $atts ) {
 	endforeach;
 	
 	return
-		'<ul class="opening-hours">'.
+		'<ul class="opening-hours">
+			<div class="title">'.$title.'</div>'.
 			$opening
 		.'</ul><!--/.opening-hours-->';
 }
