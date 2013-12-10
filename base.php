@@ -22,7 +22,7 @@
   ?>
   
   <?php // Container Class
-  	$container_class = get_post_meta($post->ID, 'krank_container', true);
+  	$container_class = get_post_meta($post->ID, '_krank_container', true);
 	
 	if ($container_class == false) :
 		$container = " container";

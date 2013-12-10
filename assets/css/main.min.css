@@ -5997,6 +5997,19 @@ button {
   -ms-transition: color 0.3s ease-in-out, background-color 0.3s ease-in-out, background 0.3s ease-in-out;
   transition: color 0.3s ease-in-out, background-color 0.3s ease-in-out, background 0.3s ease-in-out;
 }
+a:hover,
+button:hover {
+  text-decoration: none;
+}
+.sprite {
+  background-image: url("../img/sprite.png");
+}
+@media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min--moz-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 2/1), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx) {
+  .sprite {
+    background-image: url("../img/sprite@x2.png");
+    background-size: 260px 190px;
+  }
+}
 .banner .logo {
   display: inline-block;
 }
@@ -6039,6 +6052,142 @@ button {
   background-color: #eeeeee;
   padding: 30px 0;
   margin-top: 30px;
+}
+.content-info .address {
+  margin: 0 0 15px 0;
+  position: relative;
+  min-height: 1px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+@media (min-width: 768px) {
+  .content-info .address {
+    float: left;
+    width: 50%;
+  }
+}
+@media (min-width: 992px) {
+  .content-info .address {
+    float: left;
+    width: 33.33333333333333%;
+  }
+}
+.content-info .address .org {
+  text-transform: uppercase;
+  display: block;
+  margin-bottom: 15px;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 500;
+  line-height: 1.1;
+  color: inherit;
+  font-size: 24px;
+  font-weight: 600;
+}
+.content-info .address .org small,
+.content-info .address .org .small {
+  font-weight: normal;
+  line-height: 1;
+  color: #999999;
+}
+.content-info .address span {
+  display: block;
+}
+.content-info .contact-info {
+  margin: 0 0 15px 0;
+  list-style: none;
+  padding: 0;
+  position: relative;
+  min-height: 1px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+@media (min-width: 768px) {
+  .content-info .contact-info {
+    float: left;
+    width: 50%;
+  }
+}
+@media (min-width: 992px) {
+  .content-info .contact-info {
+    float: left;
+    width: 33.33333333333333%;
+  }
+}
+.content-info .contact-info li abbr {
+  width: 15px;
+  display: inline-block;
+  margin-right: 7px;
+}
+.content-info .contact-info li .tel,
+.content-info .contact-info li .mob {
+  color: #fff;
+}
+.content-info .contact-info button {
+  margin-top: 15px;
+}
+.content-info .opening-hours {
+  margin: 0 0 15px 0;
+  list-style: none;
+  padding: 0;
+  position: relative;
+  min-height: 1px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+@media (min-width: 768px) {
+  .content-info .opening-hours {
+    float: left;
+    width: 50%;
+  }
+}
+@media (min-width: 992px) {
+  .content-info .opening-hours {
+    float: left;
+    width: 33.33333333333333%;
+  }
+}
+.content-info .opening-hours li {
+  width: 225px;
+}
+.content-info .opening-hours li:before,
+.content-info .opening-hours li:after {
+  content: " ";
+  /* 1 */
+  display: table;
+  /* 2 */
+}
+.content-info .opening-hours li:after {
+  clear: both;
+}
+.content-info .opening-hours li:before,
+.content-info .opening-hours li:after {
+  content: " ";
+  /* 1 */
+  display: table;
+  /* 2 */
+}
+.content-info .opening-hours li:after {
+  clear: both;
+}
+.content-info .opening-hours li span {
+  float: right;
+}
+.content-info .title {
+  text-transform: uppercase;
+  display: block;
+  margin-bottom: 15px;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 500;
+  line-height: 1.1;
+  color: inherit;
+  font-size: 24px;
+  font-weight: 600;
+}
+.content-info .title small,
+.content-info .title .small {
+  font-weight: normal;
+  line-height: 1;
+  color: #999999;
 }
 .copywrite {
   font-size: 12px;

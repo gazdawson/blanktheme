@@ -18,7 +18,7 @@ add_filter( 'cmb_meta_boxes', 'krank_metaboxes' );
 function krank_metaboxes( array $meta_boxes ) {
 
 	// Start with an underscore to hide fields from custom fields list
-	$prefix = 'krank_';
+	$prefix = '_krank_';
 
 	$meta_boxes[] = array(
 		'id'         => 'page_design',

@@ -21,8 +21,14 @@ a, button {
 	-moz-transition: color .3s ease-in-out, background-color .3s ease-in-out, background .3s ease-in-out;
 	-ms-transition: color .3s ease-in-out, background-color .3s ease-in-out, background .3s ease-in-out;
 	transition: color .3s ease-in-out, background-color .3s ease-in-out, background .3s ease-in-out;
+	
+	&:hover {
+		text-decoration: none;
+	}
 }
-
+.sprite {
+	.img-retina("../img/sprite.png", "../img/sprite@x2.png", 260px, 190px); // x1 width and height
+}
 // ==========================================================================
 //  Header
 // ==========================================================================
@@ -110,9 +116,67 @@ a, button {
 	padding: @grid-gutter-width 0;
 	margin-top: @grid-gutter-width;
 	
-	.address { }
-	.contact-info { }
-	.opening-hours { }
+	.address {
+		margin: 0 0 floor(@grid-gutter-width / 2 ) 0;
+		.make-sm-column(6);
+		.make-md-column(4);
+		
+		.org {
+			text-transform: uppercase;
+			display: block;
+			margin-bottom: floor(@grid-gutter-width / 2);
+			.h3;
+			font-weight: 600;
+		}
+		span {
+			display: block;
+		}
+	}
+	.contact-info { 
+		margin: 0 0 floor(@grid-gutter-width / 2 ) 0;
+		list-style: none;
+		padding: 0;
+		.make-sm-column(6);
+		.make-md-column(4);
+		
+		li {
+			abbr {
+				width: 15px;
+				display: inline-block;
+				margin-right: floor(@grid-gutter-width / 4);
+			}
+			.tel, .mob {
+				color: #fff;
+			}
+		}
+		
+		button {
+			margin-top: floor(@grid-gutter-width / 2);
+		} 
+	}
+	.opening-hours { 
+		margin: 0 0 floor(@grid-gutter-width / 2 ) 0;
+		list-style: none;
+		padding: 0;
+		.make-sm-column(6);
+		.make-md-column(4);
+		
+		li {
+			width: 225px;
+			.clearfix;
+			
+			span {
+				float: right;
+			}
+		}
+	}
+	.title {
+		text-transform: uppercase;
+		display: block;
+		margin-bottom: floor(@grid-gutter-width / 2);
+		.h3;
+		font-weight: 600;
+	}
 }
 
 .copywrite {
@@ -237,11 +301,10 @@ figure.alignnone { margin-left: 0; margin-right: 0; }
 //  Media Queries
 // ==========================================================================
 
+@media only screen and (max-width: @screen-xs-min) { } // 480px
 
-@media only screen and (max-width: @screen-xs-min) { }
+@media only screen and (max-width: @screen-sm-min) { } // 768px
 
-@media only screen and (max-width: @screen-sm-min) { }
+@media only screen and (max-width: @screen-md-min) { } // 992px
 
-@media only screen and (max-width: @screen-md-min) { }
-
-@media only screen and (max-width: @screen-lg-min) { }
+@media only screen and (max-width: @screen-lg-min) { } // 1200px
