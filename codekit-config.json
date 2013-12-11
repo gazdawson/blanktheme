@@ -2,17 +2,6 @@
   "CodeKitInfo" : "This is a CodeKit project configuration file. It is designed to sync project settings across multiple machines. Modifying the contents of this file can be a poor life decision if you don't know what you're doing. This file is not useful unless accompanied by the project that created it in CodeKit. For more information, see: http:\/\/incident57.com\/codekit",
   "creatorBuild" : "8403",
   "files" : {
-    "\/redux\/ReduxCore\/inc\/fields\/slides\/field_slides.js" : {
-      "ignoreWasSetByUser" : 1,
-      "ignore" : 1,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/redux\/ReduxCore\/inc\/fields\/slides\/field_slides.js",
-      "outputStyle" : 1,
-      "syntaxCheckerStyle" : 1,
-      "outputAbbreviatedPath" : "\/redux\/ReduxCore\/inc\/fields\/slides\/field_slides.min.js",
-      "fileType" : 64
-    },
     "\/redux\/ReduxCore\/inc\/fields\/image_select\/field_image_select.min.js" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
@@ -22,6 +11,17 @@
       "outputStyle" : 1,
       "syntaxCheckerStyle" : 1,
       "outputAbbreviatedPath" : "\/redux\/ReduxCore\/inc\/fields\/image_select\/field_image_select.min.min.js",
+      "fileType" : 64
+    },
+    "\/redux\/ReduxCore\/inc\/fields\/slides\/field_slides.js" : {
+      "ignoreWasSetByUser" : 1,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/redux\/ReduxCore\/inc\/fields\/slides\/field_slides.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 1,
+      "outputAbbreviatedPath" : "\/redux\/ReduxCore\/inc\/fields\/slides\/field_slides.min.js",
       "fileType" : 64
     },
     "\/redux\/ReduxCore\/assets\/js\/vendor\/select2\/select2_locale_et.min.js" : {
@@ -116,6 +116,43 @@
       "outputAbbreviatedPath" : "\/redux\/ReduxCore\/inc\/fields\/ace_editor\/ace-min-noconflict\/snippets\/php.min.min.js",
       "fileType" : 64
     },
+    "\/redux\/ReduxCore\/assets\/img\/social\/GrooveShark.png" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/redux\/ReduxCore\/assets\/img\/social\/GrooveShark.png",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/redux\/ReduxCore\/assets\/img\/social\/GrooveShark.png",
+      "initialSize" : 725,
+      "fileType" : 8192
+    },
+    "\/redux\/ReduxCore\/inc\/fields\/gallery\/field_gallery.php" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/redux\/ReduxCore\/inc\/fields\/gallery\/field_gallery.php",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
+    "\/assets\/less\/bootstrap\/tooltip.less" : {
+      "ieCompatibility" : 1,
+      "inputAbbreviatedPath" : "\/assets\/less\/bootstrap\/tooltip.less",
+      "outputAbbreviatedPath" : "\/assets\/less\/css\/tooltip.css",
+      "outputPathIsSetByUser" : 0,
+      "strictUnits" : 0,
+      "relativeURLS" : 0,
+      "ignore" : 1,
+      "strictImports" : 0,
+      "ignoreWasSetByUser" : 0,
+      "shouldRunBless" : 0,
+      "hidden" : 0,
+      "strictMath" : 0,
+      "outputStyle" : 0,
+      "fileType" : 1,
+      "debugStyle" : 0
+    },
     "\/redux\/ReduxCore\/inc\/fields\/ace_editor\/ace-min-noconflict\/theme-chrome.js" : {
       "ignoreWasSetByUser" : 1,
       "ignore" : 1,
@@ -138,43 +175,6 @@
       "outputAbbreviatedPath" : "\/redux\/ReduxCore\/assets\/js\/vendor\/select2\/select2_locale_tr.min.js",
       "fileType" : 64
     },
-    "\/assets\/less\/bootstrap\/tooltip.less" : {
-      "ieCompatibility" : 1,
-      "inputAbbreviatedPath" : "\/assets\/less\/bootstrap\/tooltip.less",
-      "outputAbbreviatedPath" : "\/assets\/less\/css\/tooltip.css",
-      "outputPathIsSetByUser" : 0,
-      "strictUnits" : 0,
-      "relativeURLS" : 0,
-      "ignore" : 1,
-      "strictImports" : 0,
-      "ignoreWasSetByUser" : 0,
-      "shouldRunBless" : 0,
-      "hidden" : 0,
-      "strictMath" : 0,
-      "outputStyle" : 0,
-      "fileType" : 1,
-      "debugStyle" : 0
-    },
-    "\/redux\/ReduxCore\/inc\/fields\/gallery\/field_gallery.php" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/redux\/ReduxCore\/inc\/fields\/gallery\/field_gallery.php",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
-    },
-    "\/redux\/ReduxCore\/assets\/img\/social\/GrooveShark.png" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/redux\/ReduxCore\/assets\/img\/social\/GrooveShark.png",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/redux\/ReduxCore\/assets\/img\/social\/GrooveShark.png",
-      "initialSize" : 725,
-      "fileType" : 8192
-    },
     "\/redux\/ReduxCore\/assets\/js\/vendor\/select2\/select2_locale_ko.js" : {
       "ignoreWasSetByUser" : 1,
       "ignore" : 1,
@@ -195,6 +195,15 @@
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 16
     },
+    "\/redux\/ReduxCore\/inc\/fields\/info\/field_info.css" : {
+      "ignoreWasSetByUser" : 1,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/redux\/ReduxCore\/inc\/fields\/info\/field_info.css",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 16
+    },
     "\/redux\/ReduxCore\/inc\/fields\/sortable\/field_sortable.less" : {
       "ieCompatibility" : 1,
       "inputAbbreviatedPath" : "\/redux\/ReduxCore\/inc\/fields\/sortable\/field_sortable.less",
@@ -211,15 +220,6 @@
       "outputStyle" : 0,
       "fileType" : 1,
       "debugStyle" : 0
-    },
-    "\/redux\/ReduxCore\/inc\/fields\/info\/field_info.css" : {
-      "ignoreWasSetByUser" : 1,
-      "ignore" : 1,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/redux\/ReduxCore\/inc\/fields\/info\/field_info.css",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 16
     },
     "\/redux\/ReduxCore\/assets\/js\/vendor\/select2\/select2_locale_it.js" : {
       "ignoreWasSetByUser" : 1,
@@ -480,15 +480,15 @@
       "outputAbbreviatedPath" : "\/redux\/ReduxCore\/inc\/fields\/ace_editor\/ace-min-noconflict\/mode-javascript.min.min.js",
       "fileType" : 64
     },
-    "\/assets\/js\/plugins\/bootstrap\/alert.js" : {
-      "ignoreWasSetByUser" : 1,
+    "\/redux\/ReduxCore\/assets\/js\/vendor\/select2\/select2_locale_th.min.js" : {
+      "ignoreWasSetByUser" : 0,
       "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/assets\/js\/plugins\/bootstrap\/alert.js",
+      "inputAbbreviatedPath" : "\/redux\/ReduxCore\/assets\/js\/vendor\/select2\/select2_locale_th.min.js",
       "outputStyle" : 1,
       "syntaxCheckerStyle" : 1,
-      "outputAbbreviatedPath" : "\/assets\/js\/plugins\/bootstrap\/alert.min.js",
+      "outputAbbreviatedPath" : "\/redux\/ReduxCore\/assets\/js\/vendor\/select2\/select2_locale_th.min.min.js",
       "fileType" : 64
     },
     "\/redux\/ReduxCore\/inc\/fields\/ace_editor\/field_ace_editor.css" : {
@@ -511,16 +511,16 @@
       "outputAbbreviatedPath" : "\/redux\/ReduxCore\/assets\/js\/vendor\/select2\/select2_locale_is.min.min.js",
       "fileType" : 64
     },
-    "\/redux\/ReduxCore\/assets\/js\/vendor\/select2\/select2_locale_th.min.js" : {
+    "\/redux\/ReduxCore\/assets\/img\/social\/YouTube.png" : {
       "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
+      "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/redux\/ReduxCore\/assets\/js\/vendor\/select2\/select2_locale_th.min.js",
-      "outputStyle" : 1,
-      "syntaxCheckerStyle" : 1,
-      "outputAbbreviatedPath" : "\/redux\/ReduxCore\/assets\/js\/vendor\/select2\/select2_locale_th.min.min.js",
-      "fileType" : 64
+      "inputAbbreviatedPath" : "\/redux\/ReduxCore\/assets\/img\/social\/YouTube.png",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/redux\/ReduxCore\/assets\/img\/social\/YouTube.png",
+      "initialSize" : 765,
+      "fileType" : 8192
     },
     "\/metaboxes\/js\/cmb.js" : {
       "ignoreWasSetByUser" : 1,
@@ -533,16 +533,16 @@
       "outputAbbreviatedPath" : "\/metaboxes\/js\/cmb.min.js",
       "fileType" : 64
     },
-    "\/redux\/ReduxCore\/assets\/img\/social\/YouTube.png" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
+    "\/assets\/js\/plugins\/bootstrap\/alert.js" : {
+      "ignoreWasSetByUser" : 1,
+      "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/redux\/ReduxCore\/assets\/img\/social\/YouTube.png",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/redux\/ReduxCore\/assets\/img\/social\/YouTube.png",
-      "initialSize" : 765,
-      "fileType" : 8192
+      "inputAbbreviatedPath" : "\/assets\/js\/plugins\/bootstrap\/alert.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 1,
+      "outputAbbreviatedPath" : "\/assets\/js\/plugins\/bootstrap\/alert.min.js",
+      "fileType" : 64
     },
     "\/redux\/sample\/patterns\/tree_bark.png" : {
       "ignoreWasSetByUser" : 0,
@@ -577,6 +577,23 @@
       "outputAbbreviatedPath" : "\/redux\/ReduxCore\/inc\/fields\/button_set\/field_button_set.min.js",
       "fileType" : 64
     },
+    "\/assets\/less\/bootstrap\/normalize.less" : {
+      "ieCompatibility" : 1,
+      "inputAbbreviatedPath" : "\/assets\/less\/bootstrap\/normalize.less",
+      "outputAbbreviatedPath" : "\/assets\/less\/css\/normalize.css",
+      "outputPathIsSetByUser" : 0,
+      "strictUnits" : 0,
+      "relativeURLS" : 0,
+      "ignore" : 1,
+      "strictImports" : 0,
+      "ignoreWasSetByUser" : 0,
+      "shouldRunBless" : 0,
+      "hidden" : 0,
+      "strictMath" : 0,
+      "outputStyle" : 0,
+      "fileType" : 1,
+      "debugStyle" : 0
+    },
     "\/redux\/ReduxCore\/inc\/fields\/ace_editor\/ace-min-noconflict\/snippets\/sass.js" : {
       "ignoreWasSetByUser" : 1,
       "ignore" : 1,
@@ -599,32 +616,6 @@
       "outputAbbreviatedPath" : "\/redux\/ReduxCore\/inc\/fields\/ace_editor\/ace-min-noconflict\/worker-json.min.js",
       "fileType" : 64
     },
-    "\/assets\/less\/bootstrap\/normalize.less" : {
-      "ieCompatibility" : 1,
-      "inputAbbreviatedPath" : "\/assets\/less\/bootstrap\/normalize.less",
-      "outputAbbreviatedPath" : "\/assets\/less\/css\/normalize.css",
-      "outputPathIsSetByUser" : 0,
-      "strictUnits" : 0,
-      "relativeURLS" : 0,
-      "ignore" : 1,
-      "strictImports" : 0,
-      "ignoreWasSetByUser" : 0,
-      "shouldRunBless" : 0,
-      "hidden" : 0,
-      "strictMath" : 0,
-      "outputStyle" : 0,
-      "fileType" : 1,
-      "debugStyle" : 0
-    },
-    "\/redux\/ReduxCore\/extensions\/customizer\/extension_customizer.php" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/redux\/ReduxCore\/extensions\/customizer\/extension_customizer.php",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
-    },
     "\/redux\/ReduxCore\/inc\/fields\/ace_editor\/ace-min-noconflict\/snippets\/plain_text.min.js" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
@@ -635,6 +626,15 @@
       "syntaxCheckerStyle" : 1,
       "outputAbbreviatedPath" : "\/redux\/ReduxCore\/inc\/fields\/ace_editor\/ace-min-noconflict\/snippets\/plain_text.min.min.js",
       "fileType" : 64
+    },
+    "\/redux\/ReduxCore\/extensions\/customizer\/extension_customizer.php" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/redux\/ReduxCore\/extensions\/customizer\/extension_customizer.php",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
     },
     "\/assets\/js\/plugins\/bootstrap\/transition.js" : {
       "ignoreWasSetByUser" : 1,
@@ -956,6 +956,15 @@
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
+    "\/redux\/ReduxCore\/inc\/fields\/slides\/field_slides.css" : {
+      "ignoreWasSetByUser" : 1,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/redux\/ReduxCore\/inc\/fields\/slides\/field_slides.css",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 16
+    },
     "\/assets\/js\/plugins\/bootstrap\/collapse.js" : {
       "ignoreWasSetByUser" : 1,
       "ignore" : 1,
@@ -966,15 +975,6 @@
       "syntaxCheckerStyle" : 1,
       "outputAbbreviatedPath" : "\/assets\/js\/plugins\/bootstrap\/collapse.min.js",
       "fileType" : 64
-    },
-    "\/redux\/ReduxCore\/inc\/fields\/slides\/field_slides.css" : {
-      "ignoreWasSetByUser" : 1,
-      "ignore" : 1,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/redux\/ReduxCore\/inc\/fields\/slides\/field_slides.css",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 16
     },
     "\/redux\/ReduxCore\/assets\/js\/vendor\/select2\/select2_locale_ms.min.js" : {
       "ignoreWasSetByUser" : 0,
@@ -1089,6 +1089,17 @@
       "outputAbbreviatedPath" : "\/redux\/ReduxCore\/inc\/fields\/ace_editor\/ace-min-noconflict\/mode-sass.min.js",
       "fileType" : 64
     },
+    "\/redux\/ReduxCore\/assets\/js\/vendor\/select2\/select2_locale_fa.js" : {
+      "ignoreWasSetByUser" : 1,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/redux\/ReduxCore\/assets\/js\/vendor\/select2\/select2_locale_fa.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 1,
+      "outputAbbreviatedPath" : "\/redux\/ReduxCore\/assets\/js\/vendor\/select2\/select2_locale_fa.min.js",
+      "fileType" : 64
+    },
     "\/templates\/header.php" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -1125,17 +1136,6 @@
       "outputStyle" : 0,
       "fileType" : 1,
       "debugStyle" : 0
-    },
-    "\/redux\/ReduxCore\/assets\/js\/vendor\/select2\/select2_locale_fa.js" : {
-      "ignoreWasSetByUser" : 1,
-      "ignore" : 1,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/redux\/ReduxCore\/assets\/js\/vendor\/select2\/select2_locale_fa.js",
-      "outputStyle" : 1,
-      "syntaxCheckerStyle" : 1,
-      "outputAbbreviatedPath" : "\/redux\/ReduxCore\/assets\/js\/vendor\/select2\/select2_locale_fa.min.js",
-      "fileType" : 64
     },
     "\/redux\/ReduxCore\/inc\/fields\/checkbox\/field_checkbox.php" : {
       "ignoreWasSetByUser" : 0,
@@ -1175,6 +1175,17 @@
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
+    "\/redux\/ReduxCore\/inc\/fields\/multi_text\/field_multi_text.min.js" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/redux\/ReduxCore\/inc\/fields\/multi_text\/field_multi_text.min.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 1,
+      "outputAbbreviatedPath" : "\/redux\/ReduxCore\/inc\/fields\/multi_text\/field_multi_text.min.min.js",
+      "fileType" : 64
+    },
     "\/assets\/less\/bootstrap\/wells.less" : {
       "ieCompatibility" : 1,
       "inputAbbreviatedPath" : "\/assets\/less\/bootstrap\/wells.less",
@@ -1191,17 +1202,6 @@
       "outputStyle" : 0,
       "fileType" : 1,
       "debugStyle" : 0
-    },
-    "\/redux\/ReduxCore\/inc\/fields\/multi_text\/field_multi_text.min.js" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/redux\/ReduxCore\/inc\/fields\/multi_text\/field_multi_text.min.js",
-      "outputStyle" : 1,
-      "syntaxCheckerStyle" : 1,
-      "outputAbbreviatedPath" : "\/redux\/ReduxCore\/inc\/fields\/multi_text\/field_multi_text.min.min.js",
-      "fileType" : 64
     },
     "\/redux\/sample\/patterns\/wild_flowers.png" : {
       "ignoreWasSetByUser" : 0,
@@ -1225,15 +1225,6 @@
       "outputAbbreviatedPath" : "\/redux\/ReduxCore\/inc\/fields\/ace_editor\/ace-min-noconflict\/mode-html.min.js",
       "fileType" : 64
     },
-    "\/lib\/comments.php" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/lib\/comments.php",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
-    },
     "\/redux\/ReduxCore\/inc\/fields\/typography\/field_typography.php" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -1251,6 +1242,15 @@
       "inputAbbreviatedPath" : "\/redux\/ReduxCore\/assets\/css\/vendor\/elusive-icons\/elusive-webfont-ie7.css",
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 16
+    },
+    "\/lib\/comments.php" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/lib\/comments.php",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
     },
     "\/redux\/ReduxCore\/inc\/fields\/border\/field_border.php" : {
       "ignoreWasSetByUser" : 0,
@@ -1443,6 +1443,15 @@
       "outputAbbreviatedPath" : "\/redux\/ReduxCore\/inc\/fields\/ace_editor\/ace-min-noconflict\/mode-sass.min.min.js",
       "fileType" : 64
     },
+    "\/page.php" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/page.php",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
     "\/assets\/less\/bootstrap\/bootstrap.less" : {
       "ieCompatibility" : 1,
       "inputAbbreviatedPath" : "\/assets\/less\/bootstrap\/bootstrap.less",
@@ -1459,15 +1468,6 @@
       "outputStyle" : 0,
       "fileType" : 1,
       "debugStyle" : 0
-    },
-    "\/page.php" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/page.php",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
     },
     "\/redux\/ReduxCore\/assets\/js\/vendor\/select2\/select2_locale_lt.min.js" : {
       "ignoreWasSetByUser" : 0,
@@ -1555,17 +1555,6 @@
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
-    "\/redux\/ReduxCore\/assets\/js\/vendor\/select2\/select2_locale_lv.js" : {
-      "ignoreWasSetByUser" : 1,
-      "ignore" : 1,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/redux\/ReduxCore\/assets\/js\/vendor\/select2\/select2_locale_lv.js",
-      "outputStyle" : 1,
-      "syntaxCheckerStyle" : 1,
-      "outputAbbreviatedPath" : "\/redux\/ReduxCore\/assets\/js\/vendor\/select2\/select2_locale_lv.min.js",
-      "fileType" : 64
-    },
     "\/assets\/js\/plugins\/bootstrap\/modal.js" : {
       "ignoreWasSetByUser" : 1,
       "ignore" : 1,
@@ -1575,6 +1564,17 @@
       "outputStyle" : 1,
       "syntaxCheckerStyle" : 1,
       "outputAbbreviatedPath" : "\/assets\/js\/plugins\/bootstrap\/modal.min.js",
+      "fileType" : 64
+    },
+    "\/redux\/ReduxCore\/assets\/js\/vendor\/select2\/select2_locale_lv.js" : {
+      "ignoreWasSetByUser" : 1,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/redux\/ReduxCore\/assets\/js\/vendor\/select2\/select2_locale_lv.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 1,
+      "outputAbbreviatedPath" : "\/redux\/ReduxCore\/assets\/js\/vendor\/select2\/select2_locale_lv.min.js",
       "fileType" : 64
     },
     "\/redux\/ReduxCore\/assets\/js\/vendor\/select2\/select2_locale_cs.js" : {
@@ -1627,6 +1627,17 @@
       "fileType" : 1,
       "debugStyle" : 0
     },
+    "\/redux\/ReduxCore\/assets\/js\/vendor\/select2\/select2_locale_de.min.js" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/redux\/ReduxCore\/assets\/js\/vendor\/select2\/select2_locale_de.min.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 1,
+      "outputAbbreviatedPath" : "\/redux\/ReduxCore\/assets\/js\/vendor\/select2\/select2_locale_de.min.min.js",
+      "fileType" : 64
+    },
     "\/assets\/less\/bootstrap\/scaffolding.less" : {
       "ieCompatibility" : 1,
       "inputAbbreviatedPath" : "\/assets\/less\/bootstrap\/scaffolding.less",
@@ -1643,17 +1654,6 @@
       "outputStyle" : 0,
       "fileType" : 1,
       "debugStyle" : 0
-    },
-    "\/redux\/ReduxCore\/assets\/js\/vendor\/select2\/select2_locale_de.min.js" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/redux\/ReduxCore\/assets\/js\/vendor\/select2\/select2_locale_de.min.js",
-      "outputStyle" : 1,
-      "syntaxCheckerStyle" : 1,
-      "outputAbbreviatedPath" : "\/redux\/ReduxCore\/assets\/js\/vendor\/select2\/select2_locale_de.min.min.js",
-      "fileType" : 64
     },
     "\/assets\/less\/bootstrap\/modals.less" : {
       "ieCompatibility" : 1,
@@ -1725,21 +1725,21 @@
       "initialSize" : 1033,
       "fileType" : 8192
     },
-    "\/redux\/ReduxCore\/inc\/validation\/html\/validation_html.php" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/redux\/ReduxCore\/inc\/validation\/html\/validation_html.php",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
-    },
     "\/lib\/custom-posts.php" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/lib\/custom-posts.php",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
+    "\/redux\/ReduxCore\/inc\/validation\/html\/validation_html.php" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/redux\/ReduxCore\/inc\/validation\/html\/validation_html.php",
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
@@ -1754,6 +1754,15 @@
       "outputAbbreviatedPath" : "\/redux\/ReduxCore\/assets\/js\/vendor\/select2\/select2_locale_gl.min.js",
       "fileType" : 64
     },
+    "\/templates\/content.php" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/templates\/content.php",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
     "\/redux\/ReduxCore\/assets\/js\/vendor\/select2\/select2_locale_ja.min.js" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
@@ -1764,15 +1773,6 @@
       "syntaxCheckerStyle" : 1,
       "outputAbbreviatedPath" : "\/redux\/ReduxCore\/assets\/js\/vendor\/select2\/select2_locale_ja.min.min.js",
       "fileType" : 64
-    },
-    "\/templates\/content.php" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/templates\/content.php",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
     },
     "\/redux\/ReduxCore\/assets\/js\/vendor\/jquery.typewatch.js" : {
       "ignoreWasSetByUser" : 1,
@@ -1785,21 +1785,21 @@
       "outputAbbreviatedPath" : "\/redux\/ReduxCore\/assets\/js\/vendor\/jquery.typewatch.min.js",
       "fileType" : 64
     },
-    "\/redux\/ReduxCore\/inc\/validation\/url\/validation_url.php" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/redux\/ReduxCore\/inc\/validation\/url\/validation_url.php",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
-    },
     "\/redux\/ReduxCore\/inc\/fields\/media\/field_media.php" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/redux\/ReduxCore\/inc\/fields\/media\/field_media.php",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
+    "\/redux\/ReduxCore\/inc\/validation\/url\/validation_url.php" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/redux\/ReduxCore\/inc\/validation\/url\/validation_url.php",
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
@@ -1814,15 +1814,15 @@
       "initialSize" : 30454,
       "fileType" : 8192
     },
-    "\/redux\/ReduxCore\/assets\/js\/vendor\/select2\/select2_locale_pt-BR.min.js" : {
+    "\/redux\/ReduxCore\/inc\/fields\/ace_editor\/ace-min-noconflict\/snippets\/text.min.js" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/redux\/ReduxCore\/assets\/js\/vendor\/select2\/select2_locale_pt-BR.min.js",
+      "inputAbbreviatedPath" : "\/redux\/ReduxCore\/inc\/fields\/ace_editor\/ace-min-noconflict\/snippets\/text.min.js",
       "outputStyle" : 1,
       "syntaxCheckerStyle" : 1,
-      "outputAbbreviatedPath" : "\/redux\/ReduxCore\/assets\/js\/vendor\/select2\/select2_locale_pt-BR.min.min.js",
+      "outputAbbreviatedPath" : "\/redux\/ReduxCore\/inc\/fields\/ace_editor\/ace-min-noconflict\/snippets\/text.min.min.js",
       "fileType" : 64
     },
     "\/templates\/options-print.php" : {
@@ -1834,6 +1834,17 @@
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
+    "\/redux\/ReduxCore\/assets\/js\/vendor\/select2\/select2_locale_pt-BR.min.js" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/redux\/ReduxCore\/assets\/js\/vendor\/select2\/select2_locale_pt-BR.min.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 1,
+      "outputAbbreviatedPath" : "\/redux\/ReduxCore\/assets\/js\/vendor\/select2\/select2_locale_pt-BR.min.min.js",
+      "fileType" : 64
+    },
     "\/redux\/ReduxCore\/inc\/fields\/group\/field_group.js" : {
       "ignoreWasSetByUser" : 1,
       "ignore" : 1,
@@ -1843,17 +1854,6 @@
       "outputStyle" : 1,
       "syntaxCheckerStyle" : 1,
       "outputAbbreviatedPath" : "\/redux\/ReduxCore\/inc\/fields\/group\/field_group.min.js",
-      "fileType" : 64
-    },
-    "\/redux\/ReduxCore\/inc\/fields\/ace_editor\/ace-min-noconflict\/snippets\/text.min.js" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/redux\/ReduxCore\/inc\/fields\/ace_editor\/ace-min-noconflict\/snippets\/text.min.js",
-      "outputStyle" : 1,
-      "syntaxCheckerStyle" : 1,
-      "outputAbbreviatedPath" : "\/redux\/ReduxCore\/inc\/fields\/ace_editor\/ace-min-noconflict\/snippets\/text.min.min.js",
       "fileType" : 64
     },
     "\/redux\/ReduxCore\/inc\/fields\/ace_editor\/ace-min-noconflict\/mode-text.min.js" : {
@@ -1909,17 +1909,6 @@
       "initialSize" : 4369,
       "fileType" : 8192
     },
-    "\/redux\/ReduxCore\/inc\/fields\/sorter\/field_sorter.js" : {
-      "ignoreWasSetByUser" : 1,
-      "ignore" : 1,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/redux\/ReduxCore\/inc\/fields\/sorter\/field_sorter.js",
-      "outputStyle" : 1,
-      "syntaxCheckerStyle" : 1,
-      "outputAbbreviatedPath" : "\/redux\/ReduxCore\/inc\/fields\/sorter\/field_sorter.min.js",
-      "fileType" : 64
-    },
     "\/redux\/ReduxCore\/inc\/fields\/editor\/field_editor.less" : {
       "ieCompatibility" : 1,
       "inputAbbreviatedPath" : "\/redux\/ReduxCore\/inc\/fields\/editor\/field_editor.less",
@@ -1937,17 +1926,6 @@
       "fileType" : 1,
       "debugStyle" : 0
     },
-    "\/redux\/ReduxCore\/inc\/fields\/ace_editor\/ace-min-noconflict\/mode-scss.js" : {
-      "ignoreWasSetByUser" : 1,
-      "ignore" : 1,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/redux\/ReduxCore\/inc\/fields\/ace_editor\/ace-min-noconflict\/mode-scss.js",
-      "outputStyle" : 1,
-      "syntaxCheckerStyle" : 1,
-      "outputAbbreviatedPath" : "\/redux\/ReduxCore\/inc\/fields\/ace_editor\/ace-min-noconflict\/mode-scss.min.js",
-      "fileType" : 64
-    },
     "\/redux\/ReduxCore\/assets\/js\/vendor\/select2\/select2_locale_no.js" : {
       "ignoreWasSetByUser" : 1,
       "ignore" : 1,
@@ -1959,14 +1937,16 @@
       "outputAbbreviatedPath" : "\/redux\/ReduxCore\/assets\/js\/vendor\/select2\/select2_locale_no.min.js",
       "fileType" : 64
     },
-    "\/redux\/ReduxCore\/inc\/validation\/comma_numeric\/validation_comma_numeric.php" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
+    "\/redux\/ReduxCore\/inc\/fields\/ace_editor\/ace-min-noconflict\/mode-scss.js" : {
+      "ignoreWasSetByUser" : 1,
+      "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/redux\/ReduxCore\/inc\/validation\/comma_numeric\/validation_comma_numeric.php",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
+      "inputAbbreviatedPath" : "\/redux\/ReduxCore\/inc\/fields\/ace_editor\/ace-min-noconflict\/mode-scss.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 1,
+      "outputAbbreviatedPath" : "\/redux\/ReduxCore\/inc\/fields\/ace_editor\/ace-min-noconflict\/mode-scss.min.js",
+      "fileType" : 64
     },
     "\/redux\/ReduxCore\/inc\/fields\/ace_editor\/ace-min-noconflict\/mode-mysql.min.js" : {
       "ignoreWasSetByUser" : 0,
@@ -1977,6 +1957,26 @@
       "outputStyle" : 1,
       "syntaxCheckerStyle" : 1,
       "outputAbbreviatedPath" : "\/redux\/ReduxCore\/inc\/fields\/ace_editor\/ace-min-noconflict\/mode-mysql.min.min.js",
+      "fileType" : 64
+    },
+    "\/redux\/ReduxCore\/inc\/validation\/comma_numeric\/validation_comma_numeric.php" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/redux\/ReduxCore\/inc\/validation\/comma_numeric\/validation_comma_numeric.php",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
+    "\/redux\/ReduxCore\/inc\/fields\/sorter\/field_sorter.js" : {
+      "ignoreWasSetByUser" : 1,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/redux\/ReduxCore\/inc\/fields\/sorter\/field_sorter.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 1,
+      "outputAbbreviatedPath" : "\/redux\/ReduxCore\/inc\/fields\/sorter\/field_sorter.min.js",
       "fileType" : 64
     },
     "\/redux\/ReduxCore\/assets\/js\/vendor\/select2\/select2_locale_bg.js" : {
@@ -2244,15 +2244,15 @@
       "fileType" : 1,
       "debugStyle" : 0
     },
-    "\/redux\/ReduxCore\/assets\/js\/vendor\/select2\/select2_locale_fa.min.js" : {
+    "\/redux\/ReduxCore\/assets\/js\/vendor\/select2\/select2_locale_pt-PT.min.js" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/redux\/ReduxCore\/assets\/js\/vendor\/select2\/select2_locale_fa.min.js",
+      "inputAbbreviatedPath" : "\/redux\/ReduxCore\/assets\/js\/vendor\/select2\/select2_locale_pt-PT.min.js",
       "outputStyle" : 1,
       "syntaxCheckerStyle" : 1,
-      "outputAbbreviatedPath" : "\/redux\/ReduxCore\/assets\/js\/vendor\/select2\/select2_locale_fa.min.min.js",
+      "outputAbbreviatedPath" : "\/redux\/ReduxCore\/assets\/js\/vendor\/select2\/select2_locale_pt-PT.min.min.js",
       "fileType" : 64
     },
     "\/redux\/ReduxCore\/inc\/fields\/ace_editor\/ace-min-noconflict\/mode-mysql.js" : {
@@ -2266,15 +2266,15 @@
       "outputAbbreviatedPath" : "\/redux\/ReduxCore\/inc\/fields\/ace_editor\/ace-min-noconflict\/mode-mysql.min.js",
       "fileType" : 64
     },
-    "\/redux\/ReduxCore\/assets\/js\/vendor\/select2\/select2_locale_pt-PT.min.js" : {
+    "\/redux\/ReduxCore\/assets\/js\/vendor\/select2\/select2_locale_fa.min.js" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/redux\/ReduxCore\/assets\/js\/vendor\/select2\/select2_locale_pt-PT.min.js",
+      "inputAbbreviatedPath" : "\/redux\/ReduxCore\/assets\/js\/vendor\/select2\/select2_locale_fa.min.js",
       "outputStyle" : 1,
       "syntaxCheckerStyle" : 1,
-      "outputAbbreviatedPath" : "\/redux\/ReduxCore\/assets\/js\/vendor\/select2\/select2_locale_pt-PT.min.min.js",
+      "outputAbbreviatedPath" : "\/redux\/ReduxCore\/assets\/js\/vendor\/select2\/select2_locale_fa.min.min.js",
       "fileType" : 64
     },
     "\/redux\/ReduxCore\/inc\/fields\/textarea\/field_textarea.php" : {
@@ -2395,17 +2395,6 @@
       "fileType" : 1,
       "debugStyle" : 0
     },
-    "\/redux\/ReduxCore\/assets\/css\/vendor\/jquery-ui-bootstrap\/images\/ui-bg_highlight-soft_75_cccccc_1x100.png" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/redux\/ReduxCore\/assets\/css\/vendor\/jquery-ui-bootstrap\/images\/ui-bg_highlight-soft_75_cccccc_1x100.png",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/redux\/ReduxCore\/assets\/css\/vendor\/jquery-ui-bootstrap\/images\/ui-bg_highlight-soft_75_cccccc_1x100.png",
-      "initialSize" : 101,
-      "fileType" : 8192
-    },
     "\/redux\/ReduxCore\/assets\/js\/vendor\/cookie.min.js" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
@@ -2416,6 +2405,17 @@
       "syntaxCheckerStyle" : 1,
       "outputAbbreviatedPath" : "\/redux\/ReduxCore\/assets\/js\/vendor\/cookie.min.min.js",
       "fileType" : 64
+    },
+    "\/redux\/ReduxCore\/assets\/css\/vendor\/jquery-ui-bootstrap\/images\/ui-bg_highlight-soft_75_cccccc_1x100.png" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/redux\/ReduxCore\/assets\/css\/vendor\/jquery-ui-bootstrap\/images\/ui-bg_highlight-soft_75_cccccc_1x100.png",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/redux\/ReduxCore\/assets\/css\/vendor\/jquery-ui-bootstrap\/images\/ui-bg_highlight-soft_75_cccccc_1x100.png",
+      "initialSize" : 101,
+      "fileType" : 8192
     },
     "\/redux\/ReduxCore\/inc\/fields\/css\/field_spacing.css" : {
       "ignoreWasSetByUser" : 0,
@@ -2640,6 +2640,15 @@
       "initialSize" : 180,
       "fileType" : 8192
     },
+    "\/redux\/ReduxCore\/assets\/css\/style.css" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/redux\/ReduxCore\/assets\/css\/style.css",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 16
+    },
     "\/redux\/ReduxCore\/inc\/fields\/ace_editor\/ace-min-noconflict\/snippets\/html.js" : {
       "ignoreWasSetByUser" : 1,
       "ignore" : 1,
@@ -2650,15 +2659,6 @@
       "syntaxCheckerStyle" : 1,
       "outputAbbreviatedPath" : "\/redux\/ReduxCore\/inc\/fields\/ace_editor\/ace-min-noconflict\/snippets\/html.min.js",
       "fileType" : 64
-    },
-    "\/redux\/ReduxCore\/assets\/css\/style.css" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/redux\/ReduxCore\/assets\/css\/style.css",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 16
     },
     "\/redux\/ReduxCore\/inc\/fields\/switch\/field_switch.less" : {
       "ieCompatibility" : 1,
@@ -2714,15 +2714,6 @@
       "fileType" : 1,
       "debugStyle" : 0
     },
-    "\/templates\/head.php" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/templates\/head.php",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
-    },
     "\/redux\/ReduxCore\/assets\/js\/vendor\/select2\/select2_locale_bg.min.js" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
@@ -2733,6 +2724,15 @@
       "syntaxCheckerStyle" : 1,
       "outputAbbreviatedPath" : "\/redux\/ReduxCore\/assets\/js\/vendor\/select2\/select2_locale_bg.min.min.js",
       "fileType" : 64
+    },
+    "\/templates\/head.php" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/templates\/head.php",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
     },
     "\/redux\/ReduxCore\/inc\/fields\/ace_editor\/ace-min-noconflict\/snippets\/text.js" : {
       "ignoreWasSetByUser" : 1,
@@ -2811,14 +2811,16 @@
       "outputAbbreviatedPath" : "\/redux\/ReduxCore\/assets\/js\/vendor\/select2\/select2_locale_ar.min.js",
       "fileType" : 64
     },
-    "\/redux\/ReduxCore\/inc\/fields\/button_set\/field_button_set.php" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
+    "\/redux\/ReduxCore\/assets\/js\/vendor\/select2\/select2_locale_el.js" : {
+      "ignoreWasSetByUser" : 1,
+      "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/redux\/ReduxCore\/inc\/fields\/button_set\/field_button_set.php",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
+      "inputAbbreviatedPath" : "\/redux\/ReduxCore\/assets\/js\/vendor\/select2\/select2_locale_el.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 1,
+      "outputAbbreviatedPath" : "\/redux\/ReduxCore\/assets\/js\/vendor\/select2\/select2_locale_el.min.js",
+      "fileType" : 64
     },
     "\/redux\/ReduxCore\/inc\/fields\/slider\/field_slider.js" : {
       "ignoreWasSetByUser" : 1,
@@ -2857,25 +2859,25 @@
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 16
     },
-    "\/redux\/ReduxCore\/assets\/js\/vendor\/select2\/select2_locale_el.js" : {
-      "ignoreWasSetByUser" : 1,
-      "ignore" : 1,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/redux\/ReduxCore\/assets\/js\/vendor\/select2\/select2_locale_el.js",
-      "outputStyle" : 1,
-      "syntaxCheckerStyle" : 1,
-      "outputAbbreviatedPath" : "\/redux\/ReduxCore\/assets\/js\/vendor\/select2\/select2_locale_el.min.js",
-      "fileType" : 64
-    },
-    "\/redux\/ReduxCore\/inc\/validation\/color\/validation_color.php" : {
+    "\/redux\/ReduxCore\/inc\/fields\/button_set\/field_button_set.php" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/redux\/ReduxCore\/inc\/validation\/color\/validation_color.php",
+      "inputAbbreviatedPath" : "\/redux\/ReduxCore\/inc\/fields\/button_set\/field_button_set.php",
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
+    },
+    "\/assets\/js\/plugins\/bootstrap\/tooltip.js" : {
+      "ignoreWasSetByUser" : 1,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/assets\/js\/plugins\/bootstrap\/tooltip.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 1,
+      "outputAbbreviatedPath" : "\/assets\/js\/plugins\/bootstrap\/tooltip.min.js",
+      "fileType" : 64
     },
     "\/assets\/less\/bootstrap\/jumbotron.less" : {
       "ieCompatibility" : 1,
@@ -2894,23 +2896,21 @@
       "fileType" : 1,
       "debugStyle" : 0
     },
-    "\/assets\/js\/plugins\/bootstrap\/tooltip.js" : {
-      "ignoreWasSetByUser" : 1,
-      "ignore" : 1,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/assets\/js\/plugins\/bootstrap\/tooltip.js",
-      "outputStyle" : 1,
-      "syntaxCheckerStyle" : 1,
-      "outputAbbreviatedPath" : "\/assets\/js\/plugins\/bootstrap\/tooltip.min.js",
-      "fileType" : 64
-    },
     "\/redux\/ReduxCore\/inc\/fields\/spinner\/field_spinner.php" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/redux\/ReduxCore\/inc\/fields\/spinner\/field_spinner.php",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
+    "\/redux\/ReduxCore\/inc\/validation\/color\/validation_color.php" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/redux\/ReduxCore\/inc\/validation\/color\/validation_color.php",
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
@@ -2934,6 +2934,17 @@
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
+    "\/redux\/ReduxCore\/assets\/js\/vendor\/select2\/select2_locale_hu.js" : {
+      "ignoreWasSetByUser" : 1,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/redux\/ReduxCore\/assets\/js\/vendor\/select2\/select2_locale_hu.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 1,
+      "outputAbbreviatedPath" : "\/redux\/ReduxCore\/assets\/js\/vendor\/select2\/select2_locale_hu.min.js",
+      "fileType" : 64
+    },
     "\/assets\/less\/bootstrap\/badges.less" : {
       "ieCompatibility" : 1,
       "inputAbbreviatedPath" : "\/assets\/less\/bootstrap\/badges.less",
@@ -2950,17 +2961,6 @@
       "outputStyle" : 0,
       "fileType" : 1,
       "debugStyle" : 0
-    },
-    "\/redux\/ReduxCore\/assets\/js\/vendor\/select2\/select2_locale_hu.js" : {
-      "ignoreWasSetByUser" : 1,
-      "ignore" : 1,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/redux\/ReduxCore\/assets\/js\/vendor\/select2\/select2_locale_hu.js",
-      "outputStyle" : 1,
-      "syntaxCheckerStyle" : 1,
-      "outputAbbreviatedPath" : "\/redux\/ReduxCore\/assets\/js\/vendor\/select2\/select2_locale_hu.min.js",
-      "fileType" : 64
     },
     "\/metaboxes\/meta.php" : {
       "ignoreWasSetByUser" : 0,
@@ -3252,15 +3252,6 @@
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
-    "\/lib\/relative-urls.php" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/lib\/relative-urls.php",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
-    },
     "\/redux\/ReduxCore\/inc\/fields\/spacing\/field_spacing.min.js" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
@@ -3271,6 +3262,15 @@
       "syntaxCheckerStyle" : 1,
       "outputAbbreviatedPath" : "\/redux\/ReduxCore\/inc\/fields\/spacing\/field_spacing.min.min.js",
       "fileType" : 64
+    },
+    "\/lib\/relative-urls.php" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/lib\/relative-urls.php",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
     },
     "\/redux\/ReduxCore\/inc\/fields\/spacing\/field_spacing.js" : {
       "ignoreWasSetByUser" : 1,
@@ -3421,15 +3421,6 @@
       "initialSize" : 3050,
       "fileType" : 8192
     },
-    "\/redux\/ReduxCore\/inc\/fields\/dimensions\/field_dimensions.php" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/redux\/ReduxCore\/inc\/fields\/dimensions\/field_dimensions.php",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
-    },
     "\/assets\/js\/vendor\/jquery-1.10.2.min.js" : {
       "ignoreWasSetByUser" : 1,
       "ignore" : 1,
@@ -3451,6 +3442,15 @@
       "outputAbbreviatedPath" : "\/redux\/sample\/patterns\/triangular.png",
       "initialSize" : 210,
       "fileType" : 8192
+    },
+    "\/redux\/ReduxCore\/inc\/fields\/dimensions\/field_dimensions.php" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/redux\/ReduxCore\/inc\/fields\/dimensions\/field_dimensions.php",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
     },
     "\/redux\/ReduxCore\/assets\/js\/vendor\/jquery.typewatch.min.js" : {
       "ignoreWasSetByUser" : 0,
@@ -3503,17 +3503,6 @@
       "outputAbbreviatedPath" : "\/redux\/ReduxCore\/assets\/js\/vendor\/select2\/select2_locale_hr.min.min.js",
       "fileType" : 64
     },
-    "\/redux\/ReduxCore\/inc\/fields\/typography\/field_typography.js" : {
-      "ignoreWasSetByUser" : 1,
-      "ignore" : 1,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/redux\/ReduxCore\/inc\/fields\/typography\/field_typography.js",
-      "outputStyle" : 1,
-      "syntaxCheckerStyle" : 1,
-      "outputAbbreviatedPath" : "\/redux\/ReduxCore\/inc\/fields\/typography\/field_typography.min.js",
-      "fileType" : 64
-    },
     "\/redux\/ReduxCore\/assets\/img\/social\/Drupal.png" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -3533,6 +3522,17 @@
       "inputAbbreviatedPath" : "\/lib\/shortcodes.php",
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
+    },
+    "\/redux\/ReduxCore\/inc\/fields\/typography\/field_typography.js" : {
+      "ignoreWasSetByUser" : 1,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/redux\/ReduxCore\/inc\/fields\/typography\/field_typography.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 1,
+      "outputAbbreviatedPath" : "\/redux\/ReduxCore\/inc\/fields\/typography\/field_typography.min.js",
+      "fileType" : 64
     },
     "\/redux\/ReduxCore\/assets\/img\/social\/Apple.png" : {
       "ignoreWasSetByUser" : 0,
@@ -3600,6 +3600,17 @@
       "initialSize" : 107,
       "fileType" : 8192
     },
+    "\/redux\/ReduxCore\/assets\/js\/admin.js" : {
+      "ignoreWasSetByUser" : 1,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/redux\/ReduxCore\/assets\/js\/admin.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 1,
+      "outputAbbreviatedPath" : "\/redux\/ReduxCore\/assets\/js\/admin.min.js",
+      "fileType" : 64
+    },
     "\/assets\/less\/bootstrap\/button-groups.less" : {
       "ieCompatibility" : 1,
       "inputAbbreviatedPath" : "\/assets\/less\/bootstrap\/button-groups.less",
@@ -3616,17 +3627,6 @@
       "outputStyle" : 0,
       "fileType" : 1,
       "debugStyle" : 0
-    },
-    "\/redux\/ReduxCore\/assets\/js\/admin.js" : {
-      "ignoreWasSetByUser" : 1,
-      "ignore" : 1,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/redux\/ReduxCore\/assets\/js\/admin.js",
-      "outputStyle" : 1,
-      "syntaxCheckerStyle" : 1,
-      "outputAbbreviatedPath" : "\/redux\/ReduxCore\/assets\/js\/admin.min.js",
-      "fileType" : 64
     },
     "\/redux\/ReduxCore\/inc\/fields\/ace_editor\/field_ace_editor.min.js" : {
       "ignoreWasSetByUser" : 0,
@@ -3650,22 +3650,16 @@
       "initialSize" : 18478,
       "fileType" : 8192
     },
-    "\/assets\/less\/bootstrap\/breadcrumbs.less" : {
-      "ieCompatibility" : 1,
-      "inputAbbreviatedPath" : "\/assets\/less\/bootstrap\/breadcrumbs.less",
-      "outputAbbreviatedPath" : "\/assets\/less\/css\/breadcrumbs.css",
-      "outputPathIsSetByUser" : 0,
-      "strictUnits" : 0,
-      "relativeURLS" : 0,
-      "ignore" : 1,
-      "strictImports" : 0,
+    "\/redux\/ReduxCore\/assets\/img\/social\/Blogger.png" : {
       "ignoreWasSetByUser" : 0,
-      "shouldRunBless" : 0,
+      "ignore" : 0,
       "hidden" : 0,
-      "strictMath" : 0,
-      "outputStyle" : 0,
-      "fileType" : 1,
-      "debugStyle" : 0
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/redux\/ReduxCore\/assets\/img\/social\/Blogger.png",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/redux\/ReduxCore\/assets\/img\/social\/Blogger.png",
+      "initialSize" : 680,
+      "fileType" : 8192
     },
     "\/redux\/ReduxCore\/assets\/js\/vendor\/select2\/select2.css" : {
       "ignoreWasSetByUser" : 1,
@@ -3673,6 +3667,15 @@
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/redux\/ReduxCore\/assets\/js\/vendor\/select2\/select2.css",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 16
+    },
+    "\/redux\/ReduxCore\/inc\/fields\/css\/field_slider.css" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/redux\/ReduxCore\/inc\/fields\/css\/field_slider.css",
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 16
     },
@@ -3693,25 +3696,22 @@
       "fileType" : 1,
       "debugStyle" : 0
     },
-    "\/redux\/ReduxCore\/inc\/fields\/css\/field_slider.css" : {
-      "ignoreWasSetByUser" : 0,
+    "\/assets\/less\/bootstrap\/breadcrumbs.less" : {
+      "ieCompatibility" : 1,
+      "inputAbbreviatedPath" : "\/assets\/less\/bootstrap\/breadcrumbs.less",
+      "outputAbbreviatedPath" : "\/assets\/less\/css\/breadcrumbs.css",
+      "outputPathIsSetByUser" : 0,
+      "strictUnits" : 0,
+      "relativeURLS" : 0,
       "ignore" : 1,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/redux\/ReduxCore\/inc\/fields\/css\/field_slider.css",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 16
-    },
-    "\/redux\/ReduxCore\/assets\/img\/social\/Blogger.png" : {
+      "strictImports" : 0,
       "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
+      "shouldRunBless" : 0,
       "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/redux\/ReduxCore\/assets\/img\/social\/Blogger.png",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/redux\/ReduxCore\/assets\/img\/social\/Blogger.png",
-      "initialSize" : 680,
-      "fileType" : 8192
+      "strictMath" : 0,
+      "outputStyle" : 0,
+      "fileType" : 1,
+      "debugStyle" : 0
     },
     "\/assets\/less\/bootstrap\/alerts.less" : {
       "ieCompatibility" : 1,
@@ -3729,17 +3729,6 @@
       "outputStyle" : 0,
       "fileType" : 1,
       "debugStyle" : 0
-    },
-    "\/redux\/ReduxCore\/inc\/fields\/ace_editor\/ace-min-noconflict\/worker-css.min.js" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/redux\/ReduxCore\/inc\/fields\/ace_editor\/ace-min-noconflict\/worker-css.min.js",
-      "outputStyle" : 1,
-      "syntaxCheckerStyle" : 1,
-      "outputAbbreviatedPath" : "\/redux\/ReduxCore\/inc\/fields\/ace_editor\/ace-min-noconflict\/worker-css.min.min.js",
-      "fileType" : 64
     },
     "\/redux\/ReduxCore\/inc\/fields\/ace_editor\/ace-min-noconflict\/mode-less.min.js" : {
       "ignoreWasSetByUser" : 0,
@@ -3760,6 +3749,17 @@
       "inputAbbreviatedPath" : "\/lib\/scripts.php",
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
+    },
+    "\/redux\/ReduxCore\/inc\/fields\/ace_editor\/ace-min-noconflict\/worker-css.min.js" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/redux\/ReduxCore\/inc\/fields\/ace_editor\/ace-min-noconflict\/worker-css.min.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 1,
+      "outputAbbreviatedPath" : "\/redux\/ReduxCore\/inc\/fields\/ace_editor\/ace-min-noconflict\/worker-css.min.min.js",
+      "fileType" : 64
     },
     "\/redux\/ReduxCore\/assets\/js\/vendor\/select2\/select2_locale_fr.js" : {
       "ignoreWasSetByUser" : 1,
@@ -4304,6 +4304,15 @@
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 16
     },
+    "\/metaboxes\/style.css" : {
+      "ignoreWasSetByUser" : 1,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/metaboxes\/style.css",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 16
+    },
     "\/redux\/ReduxCore\/assets\/js\/vendor\/select2\/select2_locale_ru.min.js" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
@@ -4315,23 +4324,16 @@
       "outputAbbreviatedPath" : "\/redux\/ReduxCore\/assets\/js\/vendor\/select2\/select2_locale_ru.min.min.js",
       "fileType" : 64
     },
-    "\/metaboxes\/style.css" : {
+    "\/redux\/ReduxCore\/inc\/fields\/ace_editor\/ace-min-noconflict\/theme-monokai.js" : {
       "ignoreWasSetByUser" : 1,
       "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/metaboxes\/style.css",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 16
-    },
-    "\/redux\/ReduxCore\/inc\/fields\/image_select\/field_image_select.css" : {
-      "ignoreWasSetByUser" : 1,
-      "ignore" : 1,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/redux\/ReduxCore\/inc\/fields\/image_select\/field_image_select.css",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 16
+      "inputAbbreviatedPath" : "\/redux\/ReduxCore\/inc\/fields\/ace_editor\/ace-min-noconflict\/theme-monokai.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 1,
+      "outputAbbreviatedPath" : "\/redux\/ReduxCore\/inc\/fields\/ace_editor\/ace-min-noconflict\/theme-monokai.min.js",
+      "fileType" : 64
     },
     "\/redux\/sample\/patterns\/triangular_@2X.png" : {
       "ignoreWasSetByUser" : 0,
@@ -4344,16 +4346,14 @@
       "initialSize" : 212,
       "fileType" : 8192
     },
-    "\/redux\/ReduxCore\/inc\/fields\/ace_editor\/ace-min-noconflict\/theme-monokai.js" : {
+    "\/redux\/ReduxCore\/inc\/fields\/image_select\/field_image_select.css" : {
       "ignoreWasSetByUser" : 1,
       "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/redux\/ReduxCore\/inc\/fields\/ace_editor\/ace-min-noconflict\/theme-monokai.js",
-      "outputStyle" : 1,
-      "syntaxCheckerStyle" : 1,
-      "outputAbbreviatedPath" : "\/redux\/ReduxCore\/inc\/fields\/ace_editor\/ace-min-noconflict\/theme-monokai.min.js",
-      "fileType" : 64
+      "inputAbbreviatedPath" : "\/redux\/ReduxCore\/inc\/fields\/image_select\/field_image_select.css",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 16
     },
     "\/redux\/ReduxCore\/assets\/js\/vendor\/select2\/select2_locale_sk.js" : {
       "ignoreWasSetByUser" : 1,
@@ -4510,6 +4510,15 @@
       "initialSize" : 749,
       "fileType" : 8192
     },
+    "\/redux\/uninstall.php" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/redux\/uninstall.php",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
     "\/lib\/utils.php" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -4529,15 +4538,6 @@
       "syntaxCheckerStyle" : 1,
       "outputAbbreviatedPath" : "\/redux\/ReduxCore\/inc\/fields\/ace_editor\/ace-min-noconflict\/snippets\/less.min.min.js",
       "fileType" : 64
-    },
-    "\/redux\/uninstall.php" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/redux\/uninstall.php",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
     },
     "\/redux\/ReduxCore\/assets\/img\/social\/Windows.png" : {
       "ignoreWasSetByUser" : 0,
@@ -4581,17 +4581,6 @@
       "outputAbbreviatedPath" : "\/redux\/ReduxCore\/assets\/js\/vendor\/select2\/select2_locale_ua.min.min.js",
       "fileType" : 64
     },
-    "\/redux\/ReduxCore\/assets\/css\/vendor\/jquery-ui-bootstrap\/images\/ui-icons_cd0a0a_256x240.png" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/redux\/ReduxCore\/assets\/css\/vendor\/jquery-ui-bootstrap\/images\/ui-icons_cd0a0a_256x240.png",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/redux\/ReduxCore\/assets\/css\/vendor\/jquery-ui-bootstrap\/images\/ui-icons_cd0a0a_256x240.png",
-      "initialSize" : 4369,
-      "fileType" : 8192
-    },
     "\/redux\/ReduxCore\/inc\/fields\/ace_editor\/ace-min-noconflict\/snippets\/markdown.min.js" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
@@ -4602,6 +4591,17 @@
       "syntaxCheckerStyle" : 1,
       "outputAbbreviatedPath" : "\/redux\/ReduxCore\/inc\/fields\/ace_editor\/ace-min-noconflict\/snippets\/markdown.min.min.js",
       "fileType" : 64
+    },
+    "\/redux\/ReduxCore\/assets\/css\/vendor\/jquery-ui-bootstrap\/images\/ui-icons_cd0a0a_256x240.png" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/redux\/ReduxCore\/assets\/css\/vendor\/jquery-ui-bootstrap\/images\/ui-icons_cd0a0a_256x240.png",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/redux\/ReduxCore\/assets\/css\/vendor\/jquery-ui-bootstrap\/images\/ui-icons_cd0a0a_256x240.png",
+      "initialSize" : 4369,
+      "fileType" : 8192
     },
     "\/assets\/less\/bootstrap\/responsive-utilities.less" : {
       "ieCompatibility" : 1,
@@ -4784,16 +4784,16 @@
       "fileType" : 1,
       "debugStyle" : 0
     },
-    "\/redux\/ReduxCore\/inc\/fields\/ace_editor\/ace-min-noconflict\/mode-markdown.min.js" : {
+    "\/redux\/ReduxCore\/assets\/img\/social\/Newsvine.png" : {
       "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
+      "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/redux\/ReduxCore\/inc\/fields\/ace_editor\/ace-min-noconflict\/mode-markdown.min.js",
-      "outputStyle" : 1,
-      "syntaxCheckerStyle" : 1,
-      "outputAbbreviatedPath" : "\/redux\/ReduxCore\/inc\/fields\/ace_editor\/ace-min-noconflict\/mode-markdown.min.min.js",
-      "fileType" : 64
+      "inputAbbreviatedPath" : "\/redux\/ReduxCore\/assets\/img\/social\/Newsvine.png",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/redux\/ReduxCore\/assets\/img\/social\/Newsvine.png",
+      "initialSize" : 654,
+      "fileType" : 8192
     },
     "\/redux\/ReduxCore\/inc\/fields\/password\/field_password.php" : {
       "ignoreWasSetByUser" : 0,
@@ -4813,14 +4813,14 @@
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
-    "\/lib\/config.php" : {
+    "\/assets\/css\/main.min.css" : {
       "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
+      "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/lib\/config.php",
+      "inputAbbreviatedPath" : "\/assets\/css\/main.min.css",
       "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
+      "fileType" : 16
     },
     "\/redux\/ReduxCore\/assets\/css\/vendor\/jquery-ui-bootstrap\/images\/ui-icons_2e83ff_256x240.png" : {
       "ignoreWasSetByUser" : 0,
@@ -4833,25 +4833,36 @@
       "initialSize" : 4369,
       "fileType" : 8192
     },
-    "\/redux\/ReduxCore\/assets\/img\/social\/Newsvine.png" : {
+    "\/lib\/config.php" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/redux\/ReduxCore\/assets\/img\/social\/Newsvine.png",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/redux\/ReduxCore\/assets\/img\/social\/Newsvine.png",
-      "initialSize" : 654,
-      "fileType" : 8192
+      "inputAbbreviatedPath" : "\/lib\/config.php",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
     },
-    "\/assets\/css\/main.min.css" : {
+    "\/redux\/ReduxCore\/inc\/fields\/ace_editor\/ace-min-noconflict\/mode-markdown.min.js" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/assets\/css\/main.min.css",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 16
+      "inputAbbreviatedPath" : "\/redux\/ReduxCore\/inc\/fields\/ace_editor\/ace-min-noconflict\/mode-markdown.min.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 1,
+      "outputAbbreviatedPath" : "\/redux\/ReduxCore\/inc\/fields\/ace_editor\/ace-min-noconflict\/mode-markdown.min.min.js",
+      "fileType" : 64
+    },
+    "\/redux\/ReduxCore\/inc\/fields\/ace_editor\/ace-min-noconflict\/snippets\/less.js" : {
+      "ignoreWasSetByUser" : 1,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/redux\/ReduxCore\/inc\/fields\/ace_editor\/ace-min-noconflict\/snippets\/less.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 1,
+      "outputAbbreviatedPath" : "\/redux\/ReduxCore\/inc\/fields\/ace_editor\/ace-min-noconflict\/snippets\/less.min.js",
+      "fileType" : 64
     },
     "\/redux\/ReduxCore\/inc\/fields\/sortable\/field_sortable.min.js" : {
       "ignoreWasSetByUser" : 0,
@@ -4880,17 +4891,6 @@
       "outputStyle" : 0,
       "fileType" : 1,
       "debugStyle" : 0
-    },
-    "\/redux\/ReduxCore\/inc\/fields\/ace_editor\/ace-min-noconflict\/snippets\/less.js" : {
-      "ignoreWasSetByUser" : 1,
-      "ignore" : 1,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/redux\/ReduxCore\/inc\/fields\/ace_editor\/ace-min-noconflict\/snippets\/less.js",
-      "outputStyle" : 1,
-      "syntaxCheckerStyle" : 1,
-      "outputAbbreviatedPath" : "\/redux\/ReduxCore\/inc\/fields\/ace_editor\/ace-min-noconflict\/snippets\/less.min.js",
-      "fileType" : 64
     },
     "\/redux\/ReduxCore\/inc\/fields\/slider\/field_slider.less" : {
       "ieCompatibility" : 1,
@@ -5367,16 +5367,22 @@
       "outputAbbreviatedPath" : "\/redux\/ReduxCore\/assets\/js\/vendor\/select2\/select2_locale_ru.min.js",
       "fileType" : 64
     },
-    "\/redux\/ReduxCore\/assets\/js\/vendor\/jquery.tipsy.min.js" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
-      "hidden" : 0,
+    "\/redux\/ReduxCore\/inc\/fields\/media\/field_media.less" : {
+      "ieCompatibility" : 1,
+      "inputAbbreviatedPath" : "\/redux\/ReduxCore\/inc\/fields\/media\/field_media.less",
+      "outputAbbreviatedPath" : "\/redux\/ReduxCore\/inc\/fields\/css\/field_media.css",
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/redux\/ReduxCore\/assets\/js\/vendor\/jquery.tipsy.min.js",
-      "outputStyle" : 1,
-      "syntaxCheckerStyle" : 1,
-      "outputAbbreviatedPath" : "\/redux\/ReduxCore\/assets\/js\/vendor\/jquery.tipsy.min.min.js",
-      "fileType" : 64
+      "strictUnits" : 0,
+      "relativeURLS" : 0,
+      "ignore" : 1,
+      "strictImports" : 0,
+      "ignoreWasSetByUser" : 1,
+      "shouldRunBless" : 0,
+      "hidden" : 0,
+      "strictMath" : 0,
+      "outputStyle" : 0,
+      "fileType" : 1,
+      "debugStyle" : 0
     },
     "\/redux\/ReduxCore\/assets\/js\/vendor\/select2\/select2_locale_it.min.js" : {
       "ignoreWasSetByUser" : 0,
@@ -5442,22 +5448,16 @@
       "initialSize" : 643,
       "fileType" : 8192
     },
-    "\/redux\/ReduxCore\/inc\/fields\/media\/field_media.less" : {
-      "ieCompatibility" : 1,
-      "inputAbbreviatedPath" : "\/redux\/ReduxCore\/inc\/fields\/media\/field_media.less",
-      "outputAbbreviatedPath" : "\/redux\/ReduxCore\/inc\/fields\/css\/field_media.css",
-      "outputPathIsSetByUser" : 0,
-      "strictUnits" : 0,
-      "relativeURLS" : 0,
+    "\/redux\/ReduxCore\/assets\/js\/vendor\/jquery.tipsy.min.js" : {
+      "ignoreWasSetByUser" : 0,
       "ignore" : 1,
-      "strictImports" : 0,
-      "ignoreWasSetByUser" : 1,
-      "shouldRunBless" : 0,
       "hidden" : 0,
-      "strictMath" : 0,
-      "outputStyle" : 0,
-      "fileType" : 1,
-      "debugStyle" : 0
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/redux\/ReduxCore\/assets\/js\/vendor\/jquery.tipsy.min.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 1,
+      "outputAbbreviatedPath" : "\/redux\/ReduxCore\/assets\/js\/vendor\/jquery.tipsy.min.min.js",
+      "fileType" : 64
     },
     "\/metaboxes\/js\/cmb.min.js" : {
       "ignoreWasSetByUser" : 0,
@@ -5468,17 +5468,6 @@
       "outputStyle" : 1,
       "syntaxCheckerStyle" : 1,
       "outputAbbreviatedPath" : "\/metaboxes\/js\/cmb.min.min.js",
-      "fileType" : 64
-    },
-    "\/redux\/ReduxCore\/assets\/js\/vendor\/lte-ie7.js" : {
-      "ignoreWasSetByUser" : 1,
-      "ignore" : 1,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/redux\/ReduxCore\/assets\/js\/vendor\/lte-ie7.js",
-      "outputStyle" : 1,
-      "syntaxCheckerStyle" : 1,
-      "outputAbbreviatedPath" : "\/redux\/ReduxCore\/assets\/js\/vendor\/lte-ie7.min.js",
       "fileType" : 64
     },
     "\/assets\/less\/bootstrap\/navbar.less" : {
@@ -5497,6 +5486,17 @@
       "outputStyle" : 0,
       "fileType" : 1,
       "debugStyle" : 0
+    },
+    "\/redux\/ReduxCore\/assets\/js\/vendor\/lte-ie7.js" : {
+      "ignoreWasSetByUser" : 1,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/redux\/ReduxCore\/assets\/js\/vendor\/lte-ie7.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 1,
+      "outputAbbreviatedPath" : "\/redux\/ReduxCore\/assets\/js\/vendor\/lte-ie7.min.js",
+      "fileType" : 64
     },
     "\/redux\/ReduxCore\/assets\/js\/vendor\/select2\/select2_locale_zh-TW.js" : {
       "ignoreWasSetByUser" : 1,
@@ -5518,16 +5518,22 @@
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 16
     },
-    "\/redux\/ReduxCore\/assets\/css\/vendor\/jquery-ui-bootstrap\/images\/ui-icons_888888_256x240.png" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
+    "\/assets\/less\/bootstrap\/type.less" : {
+      "ieCompatibility" : 1,
+      "inputAbbreviatedPath" : "\/assets\/less\/bootstrap\/type.less",
+      "outputAbbreviatedPath" : "\/assets\/less\/css\/type.css",
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/redux\/ReduxCore\/assets\/css\/vendor\/jquery-ui-bootstrap\/images\/ui-icons_888888_256x240.png",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/redux\/ReduxCore\/assets\/css\/vendor\/jquery-ui-bootstrap\/images\/ui-icons_888888_256x240.png",
-      "initialSize" : 4369,
-      "fileType" : 8192
+      "strictUnits" : 0,
+      "relativeURLS" : 0,
+      "ignore" : 1,
+      "strictImports" : 0,
+      "ignoreWasSetByUser" : 0,
+      "shouldRunBless" : 0,
+      "hidden" : 0,
+      "strictMath" : 0,
+      "outputStyle" : 0,
+      "fileType" : 1,
+      "debugStyle" : 0
     },
     "\/redux\/ReduxCore\/inc\/fields\/spinner\/spinner_custom.js" : {
       "ignoreWasSetByUser" : 1,
@@ -5558,31 +5564,25 @@
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 16
     },
-    "\/redux\/ReduxCore\/inc\/fields\/editor\/field_editor.php" : {
+    "\/redux\/ReduxCore\/inc\/fields\/css\/field_typography.css" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/redux\/ReduxCore\/inc\/fields\/css\/field_typography.css",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 16
+    },
+    "\/redux\/ReduxCore\/assets\/css\/vendor\/jquery-ui-bootstrap\/images\/ui-icons_888888_256x240.png" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/redux\/ReduxCore\/inc\/fields\/editor\/field_editor.php",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
-    },
-    "\/assets\/less\/bootstrap\/type.less" : {
-      "ieCompatibility" : 1,
-      "inputAbbreviatedPath" : "\/assets\/less\/bootstrap\/type.less",
-      "outputAbbreviatedPath" : "\/assets\/less\/css\/type.css",
-      "outputPathIsSetByUser" : 0,
-      "strictUnits" : 0,
-      "relativeURLS" : 0,
-      "ignore" : 1,
-      "strictImports" : 0,
-      "ignoreWasSetByUser" : 0,
-      "shouldRunBless" : 0,
-      "hidden" : 0,
-      "strictMath" : 0,
-      "outputStyle" : 0,
-      "fileType" : 1,
-      "debugStyle" : 0
+      "inputAbbreviatedPath" : "\/redux\/ReduxCore\/assets\/css\/vendor\/jquery-ui-bootstrap\/images\/ui-icons_888888_256x240.png",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/redux\/ReduxCore\/assets\/css\/vendor\/jquery-ui-bootstrap\/images\/ui-icons_888888_256x240.png",
+      "initialSize" : 4369,
+      "fileType" : 8192
     },
     "\/redux\/ReduxCore\/inc\/fields\/color_gradient\/field_color_gradient.php" : {
       "ignoreWasSetByUser" : 0,
@@ -5593,14 +5593,14 @@
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
-    "\/redux\/ReduxCore\/inc\/fields\/css\/field_typography.css" : {
+    "\/redux\/ReduxCore\/inc\/fields\/editor\/field_editor.php" : {
       "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
+      "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/redux\/ReduxCore\/inc\/fields\/css\/field_typography.css",
+      "inputAbbreviatedPath" : "\/redux\/ReduxCore\/inc\/fields\/editor\/field_editor.php",
       "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 16
+      "fileType" : 2048
     },
     "\/assets\/js\/plugins\/bootstrap\/tab.js" : {
       "ignoreWasSetByUser" : 1,
@@ -5675,15 +5675,6 @@
       "outputAbbreviatedPath" : "\/redux\/ReduxCore\/inc\/fields\/ace_editor\/ace-min-noconflict\/mode-json.min.js",
       "fileType" : 64
     },
-    "\/redux\/ReduxCore\/inc\/fields\/css\/field_editor.css" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/redux\/ReduxCore\/inc\/fields\/css\/field_editor.css",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 16
-    },
     "\/redux\/ReduxCore\/inc\/fields\/ace_editor\/ace-min-noconflict\/mode-scss.min.js" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
@@ -5694,6 +5685,15 @@
       "syntaxCheckerStyle" : 1,
       "outputAbbreviatedPath" : "\/redux\/ReduxCore\/inc\/fields\/ace_editor\/ace-min-noconflict\/mode-scss.min.min.js",
       "fileType" : 64
+    },
+    "\/redux\/ReduxCore\/inc\/fields\/css\/field_editor.css" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/redux\/ReduxCore\/inc\/fields\/css\/field_editor.css",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 16
     },
     "\/redux\/ReduxCore\/assets\/js\/vendor\/select2\/select2_locale_ja.js" : {
       "ignoreWasSetByUser" : 1,
