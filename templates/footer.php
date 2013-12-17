@@ -15,7 +15,7 @@
   </div>
 </footer>
 <div class="copywrite container">
-  &copy; <?php echo date('Y').' '.$krank['name']; ?> | <a href="http://www.krankcreative.co.uk">Website Design by Krank Creative Kendal, Cumbria</a>
+  &copy; <?php echo date('Y').' '.$krank['name']; ?> | <a href="http://www.krankcreative.co.uk" title="Krank Creative Web Design &amp; Development Services Kendal, Cumbria">Website Design by Krank Creative Kendal, Cumbria</a>
 </div>
 
 <div class="modal fade" id="contact-modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
