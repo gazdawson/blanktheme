@@ -1,3 +1,13 @@
+.fa {
+	display: inline-block;
+	font-family: FontAwesome;
+	font-style: normal;
+	font-weight: normal;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
 // =Global styles/layout
 // --------------------------------------------------------------
 
@@ -21,24 +31,24 @@
 .woocommerce-message {
 	.alert-variant(@turquoise; @green-sea; white);
 	&:before {
-		//.glyphicon;
-		content: "\e013";
+		.fa;
+		content: "\f046";
 		padding-right: 10px;
 	}
 }
 .woocommerce-info {
 	.alert-variant(@clouds; @silver; @asbestos);
 	&:before {
-		//.glyphicon;
-		content: "\e086";
+		.fa;
+		content: "\f05a";
 		padding-right: 10px;
 	}
 }
 .woocommerce-error {
 	.alert-variant(@alizarin; @pomegranate; white);
 	&:before {
-		//.glyphicon;
-		content: "\e101";
+		.fa;
+		content: "\f06a";
 		padding-right: 10px;
 	}
 }
@@ -796,9 +806,9 @@ p.demo_store {
 		line-height: 1em;
 		font-size: 1em;
 		width: 5.4em;
-		//.glyphicon;
+		.fa;
 		&:before {
-			content: "\e007\e007\e007\e007\e007";
+			content: "\f006\f006\f006\f006\f006";
 			color: @asbestos;
 			float: left;
 			top: 0;
@@ -814,7 +824,7 @@ p.demo_store {
 			padding-top: 1.5em;
 		}
 		span:before {
-			content: "\e006\e006\e006\e006\e006";
+			content: "\f005\f005\f005\f005\f005";
 			color: @asbestos;
 			top: 0;
 			position: absolute;
