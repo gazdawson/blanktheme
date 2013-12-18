@@ -6010,39 +6010,63 @@ button:hover {
     background-size: 260px 190px;
   }
 }
-.banner .logo {
-  display: inline-block;
+.banner .navbar-header {
+  position: relative;
+  min-height: 1px;
+  padding-left: 15px;
+  padding-right: 15px;
 }
-.banner .org {
+@media (min-width: 768px) {
+  .banner .navbar-header {
+    float: left;
+    width: 16.666666666666664%;
+  }
+}
+.banner .navbar-header .logo {
+  width: 150px;
+}
+.banner .navbar-header .org,
+.banner .navbar-header .tagline {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: 500;
   line-height: 1.1;
   color: inherit;
   font-size: 12px;
-  display: inline-block;
+  position: absolute;
+  left: -9999px;
+  margin: 0;
 }
-.banner .org small,
-.banner .org .small {
+.banner .navbar-header .org small,
+.banner .navbar-header .tagline small,
+.banner .navbar-header .org .small,
+.banner .navbar-header .tagline .small {
   font-weight: normal;
   line-height: 1;
   color: #999999;
 }
-.banner .tagline {
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-weight: 500;
-  line-height: 1.1;
-  color: inherit;
-  font-size: 12px;
-  display: inline-block;
+.banner .contact-modal {
+  position: relative;
+  min-height: 1px;
+  padding-left: 15px;
+  padding-right: 15px;
 }
-.banner .tagline small,
-.banner .tagline .small {
-  font-weight: normal;
-  line-height: 1;
-  color: #999999;
+@media (min-width: 768px) {
+  .banner .contact-modal {
+    float: left;
+    width: 16.666666666666664%;
+  }
 }
-.modal .modal-header {
-  text-align: center;
+.navbar-collapse {
+  position: relative;
+  min-height: 1px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+@media (min-width: 768px) {
+  .navbar-collapse {
+    float: left;
+    width: 66.66666666666666%;
+  }
 }
 /* Gallery Shortcode */
 .gallery-row {

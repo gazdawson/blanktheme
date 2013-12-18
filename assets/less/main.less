@@ -34,26 +34,31 @@ a, button {
 //  Header
 // ==========================================================================
 
-.banner { 
-	.logo {
-		display: inline-block; 
+.banner {
+	.navbar-header {
+		.make-sm-column(2);
+		.logo {
+			width: 150px;
+		}
+		.org, .tagline {
+			.h6;
+			position: absolute;
+			left: -9999px;
+			margin: 0;
+		}
 	}
-	.org {
-		.h6;
-		display: inline-block;
+	.contact-modal {
+		.make-sm-column(2);
 	}
-	.tagline {
-		.h6;
-		display: inline-block;
-	}
-	.contact-modal { }
 }
-.modal { 
-	.modal-header {
-		text-align: center;
+.navbar-collapse {
+	.make-sm-column(8);
+	.navbar-nav {
+		//float: right;
+		li {
+			a {}
+		}
 	}
-	.modal-body { }
-	.modal-footer { }
 }
 
 // ==========================================================================
