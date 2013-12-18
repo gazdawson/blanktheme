@@ -14,7 +14,6 @@
 
 function krank_scripts() {
   wp_enqueue_style('krank_main', get_template_directory_uri() . '/assets/css/main.min.css', false, '9dbd7d094ab56a14e3b2a984b20ea357');
-  wp_enqueue_style('fontawesome', '//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css', false); // Font Awesome From CDN http://fontawesome.io/
 
   // jQuery is loaded using the same method from HTML5 Boilerplate:
   // Grab Google CDN's latest jQuery with a protocol relative URL; fallback to local if offline
