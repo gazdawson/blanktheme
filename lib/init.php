@@ -1,6 +1,6 @@
 <?php
 /**
- * Roots initial setup and constants
+ * Krank initial setup and constants
  */
 function krank_setup() {
   // Make theme available for translation
@@ -21,6 +21,10 @@ function krank_setup() {
 
   // Add post formats (http://codex.wordpress.org/Post_Formats)
   // add_theme_support('post-formats', array('aside', 'gallery', 'link', 'image', 'quote', 'status', 'video', 'audio', 'chat'));
+  
+  // Add theme support for Woocommerce integration 
+  // (http://docs.woothemes.com/document/third-party-custom-theme-compatibility/)
+  add_theme_support('woocommerce');
 
   // Tell the TinyMCE editor to use a custom stylesheet
   add_editor_style('/assets/css/editor-style.css');
