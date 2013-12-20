@@ -1,4 +1,12 @@
 // ==========================================================================
+//  Variables
+// ==========================================================================
+
+@pad-sm: floor(@grid-gutter-width / 2);
+@pad-md: @grid-gutter-width;
+@pad-lg: floor(@grid-gutter-width * 2);
+
+// ==========================================================================
 //  Imports
 // ==========================================================================
 
@@ -42,10 +50,7 @@ a, button {
 			width: 150px;
 		}
 		.org, .tagline {
-			.h6;
-			position: absolute;
-			left: -9999px;
-			margin: 0;
+			.text-hide();
 		}
 	}
 	.contact-modal {
@@ -70,6 +75,18 @@ a, button {
 
 .page-header { 
 	h1 { }
+}
+.lead {
+	text-align: center;
+}
+blockquote {
+	text-align: center;
+	border-left: none;
+	color: @silver;
+	i {
+		font-size: 21px;
+		display: block;
+	}
 }
 
 // ==========================================================================
@@ -120,18 +137,18 @@ a, button {
 
 .content-info {
 	background-color: @gray-lighter;
-	padding: @grid-gutter-width 0;
-	margin-top: @grid-gutter-width;
+	padding: @pad-md 0;
+	margin-top: @pad-md;
 	
 	.address {
-		margin: 0 0 floor(@grid-gutter-width / 2 ) 0;
+		margin: 0 0 @pad-sm 0;
 		.make-sm-column(6);
 		.make-md-column(4);
 		
 		.org {
 			text-transform: uppercase;
 			display: block;
-			margin-bottom: floor(@grid-gutter-width / 2);
+			margin-bottom: @pad-sm;
 			.h3;
 			font-weight: 600;
 		}
@@ -140,7 +157,7 @@ a, button {
 		}
 	}
 	.contact-info { 
-		margin: 0 0 floor(@grid-gutter-width / 2 ) 0;
+		margin: 0 0 @pad-sm 0;
 		list-style: none;
 		padding: 0;
 		.make-sm-column(6);
@@ -150,7 +167,7 @@ a, button {
 			abbr {
 				width: 15px;
 				display: inline-block;
-				margin-right: floor(@grid-gutter-width / 4);
+				margin-right: floor(@pad-md / 4);
 			}
 			.tel, .mob {
 				color: #fff;
@@ -158,11 +175,11 @@ a, button {
 		}
 		
 		button {
-			margin-top: floor(@grid-gutter-width / 2);
+			margin-top: @pad-sm;
 		} 
 	}
 	.opening-hours { 
-		margin: 0 0 floor(@grid-gutter-width / 2 ) 0;
+		margin: 0 0 @pad-sm 0;
 		list-style: none;
 		padding: 0;
 		.make-sm-column(6);
@@ -180,7 +197,7 @@ a, button {
 	.title {
 		text-transform: uppercase;
 		display: block;
-		margin-bottom: floor(@grid-gutter-width / 2);
+		margin-bottom: @pad-sm;
 		.h3;
 		font-weight: 600;
 	}
@@ -188,11 +205,11 @@ a, button {
 
 .copywrite {
 	font-size: 12px;
-	color: @gray-lighter;
+	color: @silver;
 	text-align: center;
-	padding: @grid-gutter-width;
+	padding: @pad-md;
 	a {
-		color: @gray-lighter;
+		color: @silver;
 		&:hover {
 			color: @brand-primary;
 		}
@@ -203,7 +220,19 @@ a, button {
 //  Home
 // ==========================================================================
 
-
+#home-carousel {
+	.carousel-indicators{}
+	.carousel-inner {
+		.item{
+			img {}
+			.carousel-caption {
+				.carousel-title {}
+				.carousel-description {}
+			}
+		}
+	}
+	.carousel-control{}
+}
 
 // ==========================================================================
 //  Contact
@@ -231,7 +260,7 @@ a, button {
 
 .address, .contact-info { 
 	list-style: none;
-	margin: 0 0 floor(@grid-gutter-width / 2) 0;
+	margin: 0 0 @pad-sm 0;
 	padding: 0;
 }
 .address { }
@@ -241,14 +270,6 @@ a, button {
 // ==========================================================================
 //  Carousels
 // ==========================================================================
-
-#home-carousel {
-	.carousel-indicators{}
-	.carousel-inner {
-		.item{}
-	}
-	.carousel-control{}
-}
 
 // Carousel Fade Function
 .carousel-fade .carousel-inner .item {
@@ -284,7 +305,7 @@ a, button {
 // ==========================================================================
 
 .gallery-row { 
-	padding: floor(@grid-gutter-width / 2) 0 0 0;
+	padding: @pad-sm 0 0 0;
 	
 	div {
 		text-align: center;
@@ -298,7 +319,7 @@ a, button {
 		.caption {
 			padding: 5px;
 			width: 152px;
-			margin: 0 auto floor(@grid-gutter-width / 2) auto;
+			margin: 0 auto @pad-sm auto;
 		}
 	}
 }
