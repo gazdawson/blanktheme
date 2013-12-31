@@ -149,7 +149,7 @@ $args['share_icons']['linked_in'] = array(
 $args['import_icon_class'] = 'icon-large';
 
 // Set a custom menu icon.
-//$args['menu_icon'] = '';
+$args['menu_icon'] = '';
 
 // Set a custom title for the options page.
 // Default: Options

@@ -36,6 +36,22 @@ function krank_metaboxes( array $meta_boxes ) {
 			),
 		),
 	);
+	$meta_boxes[] = array(
+		'id'         => 'page_lead',
+		'title'      => 'Page Sub Heading',
+		'pages'      => array( 'page' ), // Post type
+		'context'    => 'normal',
+		'priority'   => 'core',
+		'show_names' => false, // Show field names on the left
+		'fields'     => array(
+			array(
+				'name' => 'Page Sub Header',
+				'desc' => '',
+				'id'   => $prefix . 'page_lead',
+				'type' => 'text',
+			),
+		),
+	);
 	
 	// Add other metaboxes as needed
 

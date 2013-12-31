@@ -34,6 +34,7 @@
 		.fa;
 		content: "\f046";
 		padding-right: 10px;
+		float: left;
 	}
 }
 .woocommerce-info {
@@ -42,6 +43,7 @@
 		.fa;
 		content: "\f05a";
 		padding-right: 10px;
+		float: left;
 	}
 }
 .woocommerce-error {
@@ -50,6 +52,7 @@
 		.fa;
 		content: "\f06a";
 		padding-right: 10px;
+		float: left;
 	}
 }
 
@@ -95,9 +98,9 @@ p.demo_store {
 	
 	h1,h2,h3,h4,h5,h6,
 	.h1,.h2,.h3,.h4,.h5,.h6 {
-		font-family: @font-family-base;
+		font-family: @headings-font-family;
 		text-transform: none;
-		font-weight: 400;
+		font-weight: @headings-font-weight;
 	}
 
 	small.note {
@@ -131,8 +134,8 @@ p.demo_store {
 			clear:none;
 			margin-top: 0;
 			padding: 0;
-			font-family: @font-family-base;
-			font-weight: 400;
+			font-family: @headings-font-family;
+			font-weight: @headings-font-weight;
 			text-transform: none;
 		}
 
@@ -164,7 +167,7 @@ p.demo_store {
 		}
 		.stock {
 			.badge;
-			background-color: @turquoise;
+			background-color: @emerald;
 		}
 		.out-of-stock {
 			.badge;
@@ -302,6 +305,7 @@ p.demo_store {
 			}
 			.variations {
 				margin-bottom: 1em;
+				width: 100%;
 				label {
 					line-height: 32px;
 					color: @text-color;
@@ -318,18 +322,26 @@ p.demo_store {
 					.reset_variations {
 						color: @asbestos;
 						font-size: ceil(@font-size-base * 0.85);
+						padding: 5px;
+						float: right;
 						
-						&:before {
-							content: '\1F504';
-							font-size: 24px;
-							padding-right: 1px;
+						&:after {
+							.fa;
+							content: '\f057';
+							font-size: 18px;
+							padding-left: 5px;
+							clear: both;
+						}
+						&:hover {
+							color: @brand-primary;
 						}
 					}
 				}
 			}
 			.single_variation_wrap {
+				float: right;
 				.single_variation, .variations_button {
-					margin-right: 10px;
+					margin-left: 10px;
 					float: left;
 				}
 			}
@@ -405,6 +417,9 @@ p.demo_store {
 			.make-sm-column(12);
 			.make-md-column(6);
 			.make-lg-column(4);
+			
+			.border-top-radius(@border-radius-base);
+			.border-bottom-radius(@border-radius-base);
 			
 			position: relative;
 			min-height: 350px;
@@ -494,36 +509,7 @@ p.demo_store {
 	nav.woocommerce-pagination, #content nav.woocommerce-pagination {
 		text-align: center;
 		ul {
-			display: inline-block;
-			white-space: nowrap;
-			padding:0;
-			clear: both;
-			border: 1px solid darken( @gray-light, 10 );
-			border-right: 0;
-			margin: 1px;
-			li {
-				border-right: 1px solid darken( @gray-light, 10 );
-				padding: 0;
-				margin: 0;
-				float: left;
-				display: inline;
-				overflow: hidden;
-				a, span {
-					margin: 0;
-					text-decoration: none;
-					padding: 0;
-					line-height: 1em;
-					font-size: 1em;
-					font-weight: normal;
-					padding: .5em;
-					min-width: 1em;
-					display: block;
-				}
-				span.current, a:hover, a:focus {
-					background: @gray-light;
-					color: darken( @gray-light, 40 );
-				}
-			}
+			.pagination;
 		}
 	}
 
@@ -541,7 +527,7 @@ p.demo_store {
 			border: 1px solid @gray-light;
 
 			&:before {
-				content: "";
+				content: '';
 				position:absolute;
 				top: 0;
 				right: 0;
@@ -553,7 +539,7 @@ p.demo_store {
 
 		&.added {
 			&:before {
-				content: "";
+				content: '';
 				position:absolute;
 				height: 16px;
 				width: 16px;
@@ -759,7 +745,7 @@ p.demo_store {
 				}
 			}
 			.commentlist > li:before {
-				content: "";
+				content: '';
 			}
 		}
 	}
@@ -1338,12 +1324,18 @@ p.demo_store {
 	// --------------------------------------------------------------
 
 	.checkout {
+		h3 {
+			margin: @pad-md 0;
+		}
+		.col-1 {
+			.clearfix;
+		}
 		.col-2 {
-			h3 {
-				float:left;
-				clear:none;
+			.clearfix;
+			
+			h3 { 
+				clear: both;
 			}
-
 			.notes {
 				clear:left;
 			}
@@ -1351,6 +1343,9 @@ p.demo_store {
 			.form-row-first {
 				clear:left;
 			}
+		}
+		.input-checkbox {
+			margin-right: 0 !important;
 		}
 		div.shipping-address {
 			padding: 0;
@@ -1369,6 +1364,22 @@ p.demo_store {
 		}
 		.shipping_address {
 			clear:both;
+		}
+		.tnc-title {
+			.clearfix;
+		}
+		#checkout-terms {
+			.tnc-text {
+				background-color: lighten(@clouds, 3%);
+				color: @asbestos;
+				padding: @pad-sm;
+				max-height: 150px;
+				overflow: scroll;
+				border: 1px solid darken(@clouds, 5%);
+				
+				.border-top-radius(@border-radius-large);
+				.border-bottom-radius(@border-radius-large);
+			}
 		}
 	}
 
@@ -1456,7 +1467,7 @@ p.demo_store {
 				}
 			}
 			&:after {
-				content: "";
+				content: '';
 				display:block;
 				border: 8px solid @gray; /* arrow size / color */
 				border-right-color: transparent;
