@@ -74,6 +74,40 @@ function krank_opening( $atts ) {
 }
 add_shortcode('open-hours', 'krank_opening');
 
+//[social title=""]
+function krank_social( $atts ) {
+	global $krank;
+	$company = $krank['name'];
+	
+	extract(shortcode_atts(array(
+		'title' => '',
+	), $atts));
+	
+	$social = array (
+		'facebook' 	=> 	$krank['facebook'],
+		'twitter' 	=> 	$krank['twitter'],
+		'linkedin' 	=> 	$krank['linkedin'],
+		'pinterest' => 	$krank['pintesest']
+	);
+	
+	foreach($social as $network => $url):
+		$html .= '<li><a href="'.$url.'" title="Follow '.$company.' on '.ucfirst($network).'"><i class="fa fa-'.$network.'"></i></a></li>';
+	endforeach;
+	
+	if($title):
+		$title = '<h3>'.$title.'</h3>';
+	endif;
+	
+	$output = 
+		'<ul class="social-icons">'.
+			$title.
+			$html.
+		'</ul>';
+	
+	return $output;
+}
+add_shortcode('social', 'krank_social');
+
 //[section title="title"]
 function krank_section( $atts, $content = null ) {
 

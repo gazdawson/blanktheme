@@ -3,7 +3,9 @@
  * Krank Custom Posts
  *
  * @package Krank
- */
+ *
+ * Wordpress 3.8 menu Icons see (http://melchoyce.github.io/dashicons/)
+*/
 
 // Custom Posts
 function krank_custom_post(){
@@ -27,7 +29,7 @@ function krank_custom_post(){
 		'description'   => 'Custom Posts',
 		'public'        => true,
 		'menu_position' => 5,
-		'menu_icon' 	=> admin_url() . 'images/media-button-image.gif',
+		'menu_icon'		=> 'dashicons-format-gallery',
 		'supports'      => array( 'title', 'editor', 'thumbnail', 'excerpt' ), 
 		// ('title', 'editor', 'author', 'thumbnail', 'excerpt', 'comments')
 		'has_archive'   => true,

@@ -9,7 +9,7 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-	  <a class="logo" href="<?php echo home_url(); ?>/"><img src="<?php echo $krank['logo']['url']; ?>" alt="<?php bloginfo('name'); ?>" class="logo" /></a>
+	  <a class="logo" href="<?php echo home_url(); ?>/" title="<?php bloginfo('name'); ?> | <?php bloginfo('description'); ?>"><img src="<?php echo $krank['logo']['url']; ?>" alt="<?php bloginfo('name'); ?>" class="logo" /></a>
       <a class="org" href="<?php echo home_url(); ?>/"><?php bloginfo('name'); ?></a>
 	  <h1 class="tagline"><?php bloginfo('description'); ?></h1>
     </div>

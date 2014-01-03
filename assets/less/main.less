@@ -37,7 +37,7 @@ a, button {
 	}
 }
 .sprite {
-	.img-retina("../img/sprite.png", "../img/sprite@x2.png", 260px, 190px); // x1 width and height
+	.img-retina("../img/sprite.png", "../img/sprite@2x.png", 260px, 190px); // x1 width and height
 }
 // ==========================================================================
 //  Header
@@ -86,6 +86,68 @@ blockquote {
 	i {
 		font-size: 21px;
 		display: block;
+	}
+}
+
+// ==========================================================================
+//  Shortcodes
+// ==========================================================================
+
+.address {
+	.org {
+		text-transform: uppercase;
+		display: block;
+		margin-bottom: @pad-sm;
+		.h3;
+		font-weight: 600;
+	}
+	span {
+		display: block;
+	}
+}
+.contact-info { 
+	margin: 0 0 @pad-sm 0;
+	list-style: none;
+	padding: 0;
+	li {
+		abbr {
+			width: 15px;
+			display: inline-block;
+			margin-right: floor(@pad-md / 4);
+		}
+		.tel, .mob {
+		}
+	}
+	button {
+		margin-top: @pad-sm;
+	} 
+}
+.opening-hours { 
+	margin: 0 0 @pad-sm 0;
+	list-style: none;
+	padding: 0;
+	li {
+		width: 225px;
+		.clearfix;
+		span {
+			float: right;
+		}
+	}
+}
+.social-icons {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	li {
+		display: inline-block;
+		a {
+			font-size: 30px;
+			color: @text-color;
+			padding: @pad-sm floor(@pad-sm / 2);
+			&:hover {
+				color: @brand-primary;
+			}
+		}
 	}
 }
 
@@ -141,58 +203,16 @@ blockquote {
 	margin-top: @pad-md;
 	
 	.address {
-		margin: 0 0 @pad-sm 0;
 		.make-sm-column(6);
 		.make-md-column(4);
-		
-		.org {
-			text-transform: uppercase;
-			display: block;
-			margin-bottom: @pad-sm;
-			.h3;
-			font-weight: 600;
-		}
-		span {
-			display: block;
-		}
 	}
 	.contact-info { 
-		margin: 0 0 @pad-sm 0;
-		list-style: none;
-		padding: 0;
 		.make-sm-column(6);
 		.make-md-column(4);
-		
-		li {
-			abbr {
-				width: 15px;
-				display: inline-block;
-				margin-right: floor(@pad-md / 4);
-			}
-			.tel, .mob {
-				color: #fff;
-			}
-		}
-		
-		button {
-			margin-top: @pad-sm;
-		} 
 	}
 	.opening-hours { 
-		margin: 0 0 @pad-sm 0;
-		list-style: none;
-		padding: 0;
 		.make-sm-column(6);
 		.make-md-column(4);
-		
-		li {
-			width: 225px;
-			.clearfix;
-			
-			span {
-				float: right;
-			}
-		}
 	}
 	.title {
 		text-transform: uppercase;

@@ -6,6 +6,7 @@
 	<?php echo do_shortcode('[address title=""]'); ?>
 	<?php echo do_shortcode('[open-hours title=""]'); ?>
 	<?php echo do_shortcode('[contact title=""]'); ?>
+	<?php echo do_shortcode('[social title=""]'); ?>
       <?php
         if (has_nav_menu('footer_navigation')) :
           wp_nav_menu(array('theme_location' => 'footer_navigation', 'menu_class' => 'nav'));
