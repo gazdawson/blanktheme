@@ -25,7 +25,11 @@
 //  Base
 // ==========================================================================
 
-body { }
+body {
+	// Remove if top navbar is static
+	margin-top: @navbar-height + @pad-md;
+}
+// Button and link transitions
 a, button {
 	-webkit-transition: color .3s ease-in-out, background-color .3s ease-in-out, background .3s ease-in-out;
 	-moz-transition: color .3s ease-in-out, background-color .3s ease-in-out, background .3s ease-in-out;
@@ -36,9 +40,27 @@ a, button {
 		text-decoration: none;
 	}
 }
-.sprite {
-	.img-retina("../img/sprite.png", "../img/sprite@2x.png", 260px, 190px); // x1 width and height
+// text selection color change
+::selection {
+	background: lighten(@brand-primary,5%);
+	color: #fff;
+	text-shadow: none;
+	}
+::-moz-selection {
+	background: lighten(@brand-primary,5%);
+	color: #fff;
+	text-shadow: none;
 }
+// Sprite and retina compatibility
+.sprite {
+	.img-retina("../img/sprite.png", "../img/sprite@2x.png", 200px, 190px); // x1 width and height
+}
+// Org and H1 Tagline
+.org, .tagline {
+	position: absolute;
+	.text-hide();
+}
+
 // ==========================================================================
 //  Header
 // ==========================================================================
@@ -48,9 +70,6 @@ a, button {
 		.make-sm-column(2);
 		.logo {
 			width: 150px;
-		}
-		.org, .tagline {
-			.text-hide();
 		}
 	}
 	.contact-modal {

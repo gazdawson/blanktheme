@@ -1,6 +1,6 @@
 <?php global $krank; // Global variable for custom options ?>
 
-<header class="banner navbar navbar-default navbar-static-top" role="banner">
+<header class="banner navbar navbar-default navbar-fixed-top" role="banner">
   <div class="container">
     <div class="navbar-header">
       <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
@@ -10,8 +10,6 @@
         <span class="icon-bar"></span>
       </button>
 	  <a class="logo" href="<?php echo home_url(); ?>/" title="<?php bloginfo('name'); ?> | <?php bloginfo('description'); ?>"><img src="<?php echo $krank['logo']['url']; ?>" alt="<?php bloginfo('name'); ?>" class="logo" /></a>
-      <a class="org" href="<?php echo home_url(); ?>/"><?php bloginfo('name'); ?></a>
-	  <h1 class="tagline"><?php bloginfo('description'); ?></h1>
     </div>
     <nav class="collapse navbar-collapse" role="navigation">
       <?php

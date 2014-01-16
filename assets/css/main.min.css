@@ -6711,6 +6711,9 @@ td.visible-print {
 .fa-plus-square-o:before {
   content: "\f196";
 }
+body {
+  margin-top: 80px;
+}
 a,
 button {
   -webkit-transition: color 0.3s ease-in-out, background-color 0.3s ease-in-out, background 0.3s ease-in-out;
@@ -6722,14 +6725,33 @@ a:hover,
 button:hover {
   text-decoration: none;
 }
+::selection {
+  background: #f4a62a;
+  color: #fff;
+  text-shadow: none;
+}
+::-moz-selection {
+  background: #f4a62a;
+  color: #fff;
+  text-shadow: none;
+}
 .sprite {
   background-image: url("../img/sprite.png");
 }
 @media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min--moz-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 2/1), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx) {
   .sprite {
     background-image: url("../img/sprite@2x.png");
-    background-size: 260px 190px;
+    background-size: 200px 190px;
   }
+}
+.org,
+.tagline {
+  position: absolute;
+  font: 0/0 a;
+  color: transparent;
+  text-shadow: none;
+  background-color: transparent;
+  border: 0;
 }
 .banner .navbar-header {
   position: relative;
@@ -6745,14 +6767,6 @@ button:hover {
 }
 .banner .navbar-header .logo {
   width: 150px;
-}
-.banner .navbar-header .org,
-.banner .navbar-header .tagline {
-  font: 0/0 a;
-  color: transparent;
-  text-shadow: none;
-  background-color: transparent;
-  border: 0;
 }
 .banner .contact-modal {
   position: relative;

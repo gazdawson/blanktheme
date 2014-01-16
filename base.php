@@ -10,6 +10,9 @@
       <?php _e('You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.', 'krank'); ?>
     </div>
   <![endif]-->
+	  
+  <a class="org" href="<?php echo home_url(); ?>/"><?php bloginfo('name'); ?></a>
+  <h1 class="tagline"><?php bloginfo('description'); ?></h1><!-- /.org and /.tagline -->
 
   <?php
     do_action('get_header');
