@@ -399,7 +399,18 @@ figure.alignnone { margin-left: 0; margin-right: 0; }
 
 @media only screen and (max-width: @screen-xs-min) { } // 480px
 
-@media only screen and (max-width: @screen-sm-min) { } // 768px
+@media only screen and (max-width: @screen-sm-min) {
+	// Navbar collapse adjustments
+	.navbar-toggle {
+		margin-left: 15px;
+	}
+	.navbar-collapse {
+		clear: both;
+		.navbar-nav {
+			text-align: right;
+		}
+	}	
+} // 768px
 
 @media only screen and (max-width: @screen-md-min) { } // 992px
 

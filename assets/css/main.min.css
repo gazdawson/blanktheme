@@ -7087,3 +7087,14 @@ figure.alignnone {
   margin-left: 0;
   margin-right: 0;
 }
+@media only screen and (max-width: 768px) {
+  .navbar-toggle {
+    margin-left: 15px;
+  }
+  .navbar-collapse {
+    clear: both;
+  }
+  .navbar-collapse .navbar-nav {
+    text-align: right;
+  }
+}

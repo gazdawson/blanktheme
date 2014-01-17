@@ -91,7 +91,7 @@ function krank_social( $atts ) {
 	);
 	
 	foreach($social as $network => $url):
-		$html .= '<li><a href="'.$url.'" title="Follow '.$company.' on '.ucfirst($network).'"><i class="fa fa-'.$network.'"></i></a></li>';
+		$html .= '<li><a href="'.$url.'" target="_blank" title="Follow '.$company.' on '.ucfirst($network).'"><i class="fa fa-'.$network.'"></i></a></li>';
 	endforeach;
 	
 	if($title):
